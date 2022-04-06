@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d1000000", "GoogleCodeJam\2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chain_Reactions", "GoogleCodeJam\2022_Qualification\Chain_Reactions\Chain_Reactions.vcxproj", "{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021_Qualification", "2021_Qualification", "{AB74D876-48DE-4C10-BC7A-785D7E3C229E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Consistency1", "FacebookHackerCup\2021_Qualification\Consistency1\Consistency1.vcxproj", "{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -57,6 +61,14 @@ Global
 		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Release|x64.Build.0 = Release|x64
 		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Release|x86.ActiveCfg = Release|Win32
 		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Release|x86.Build.0 = Release|Win32
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Debug|x64.ActiveCfg = Debug|x64
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Debug|x64.Build.0 = Debug|x64
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Debug|x86.Build.0 = Debug|Win32
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Release|x64.ActiveCfg = Release|x64
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Release|x64.Build.0 = Release|x64
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Release|x86.ActiveCfg = Release|Win32
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +79,8 @@ Global
 		{545F7F52-39FE-40BD-B2F5-358008102535} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
 		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
 		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
+		{AB74D876-48DE-4C10-BC7A-785D7E3C229E} = {8531673C-790B-4ADC-B792-98C17C7B8721}
+		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE} = {AB74D876-48DE-4C10-BC7A-785D7E3C229E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31EB08D4-A65F-42B0-A45C-8DEDED4C8D8F}
