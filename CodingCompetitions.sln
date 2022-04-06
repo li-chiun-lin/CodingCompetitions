@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacebookHackerCup", "FacebookHackerCup", "{8531673C-790B-4ADC-B792-98C17C7B8721}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoogleCodeJam", "GoogleCodeJam", "{49FF0E5A-5C6B-479A-AC5C-A74B77BBDC07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2022_Qualification", "2022_Qualification", "{B1AA9273-FFF2-4D56-9784-EDD90381F9E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Punched_Card", "GoogleCodeJam\2022_Qualification\Punched_Card\Punched_Card.vcxproj", "{2792926D-03FC-41B3-80C9-4D7EDE4FC971}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3D_Printing", "GoogleCodeJam\2022_Qualification\3D_Printing\3D_Printing.vcxproj", "{545F7F52-39FE-40BD-B2F5-358008102535}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d1000000", "GoogleCodeJam\2022_Qualification\d1000000\d1000000.vcxproj", "{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chain_Reactions", "GoogleCodeJam\2022_Qualification\Chain_Reactions\Chain_Reactions.vcxproj", "{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Debug|x64.ActiveCfg = Debug|x64
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Debug|x64.Build.0 = Debug|x64
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Debug|x86.ActiveCfg = Debug|Win32
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Debug|x86.Build.0 = Debug|Win32
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Release|x64.ActiveCfg = Release|x64
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Release|x64.Build.0 = Release|x64
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Release|x86.ActiveCfg = Release|Win32
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971}.Release|x86.Build.0 = Release|Win32
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Debug|x64.ActiveCfg = Debug|x64
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Debug|x64.Build.0 = Debug|x64
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Debug|x86.ActiveCfg = Debug|Win32
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Debug|x86.Build.0 = Debug|Win32
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Release|x64.ActiveCfg = Release|x64
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Release|x64.Build.0 = Release|x64
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Release|x86.ActiveCfg = Release|Win32
+		{545F7F52-39FE-40BD-B2F5-358008102535}.Release|x86.Build.0 = Release|Win32
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Debug|x64.ActiveCfg = Debug|x64
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Debug|x64.Build.0 = Debug|x64
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Debug|x86.ActiveCfg = Debug|Win32
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Debug|x86.Build.0 = Debug|Win32
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Release|x64.ActiveCfg = Release|x64
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Release|x64.Build.0 = Release|x64
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Release|x86.ActiveCfg = Release|Win32
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A}.Release|x86.Build.0 = Release|Win32
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Debug|x64.ActiveCfg = Debug|x64
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Debug|x64.Build.0 = Debug|x64
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Debug|x86.Build.0 = Debug|Win32
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Release|x64.ActiveCfg = Release|x64
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Release|x64.Build.0 = Release|x64
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Release|x86.ActiveCfg = Release|Win32
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1AA9273-FFF2-4D56-9784-EDD90381F9E0} = {49FF0E5A-5C6B-479A-AC5C-A74B77BBDC07}
+		{2792926D-03FC-41B3-80C9-4D7EDE4FC971} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
+		{545F7F52-39FE-40BD-B2F5-358008102535} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
+		{FF5F8D38-4E09-4783-8E40-2B16C2EF075A} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
+		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31EB08D4-A65F-42B0-A45C-8DEDED4C8D8F}
+	EndGlobalSection
+EndGlobal
