@@ -18,3 +18,24 @@ The first line of the input gives the number of test cases, **T**. **T** test ca
 
 For each test case, output one line containing Case #***x***
 : ***r***, where ***x*** is the test case number (starting from 1) and ***r*** is IMPOSSIBLE if there is no color that can be printed by all **3** printers. Otherwise, ***r*** must be equal to ***"c m y k"*** where ***c***, ***m***, ***y***, and ***k*** are non-negative integers that add up to **10<sup>6</sup>** and ***c*** ≤ ***C<sub>i</sub>***, ***m*** ≤ ***M<sub>i</sub>***, ***y*** ≤ ***Y<sub>i</sub>***, and ***k*** ≤ ***K<sub>i</sub>***, for all ***i***.
+
+### Sample Input
+```
+3
+300000 200000 300000 500000
+300000 200000 500000 300000
+300000 500000 300000 200000
+1000000 1000000 0 0
+0 1000000 1000000 1000000
+999999 999999 999999 999999
+768763 148041 178147 984173
+699508 515362 534729 714381
+949704 625054 946212 951187
+```
+
+### Sample Output
+```
+Case #1: 300000 200000 300000 200000
+Case #2: IMPOSSIBLE
+Case #3: 400001 100002 100003 399994
+```

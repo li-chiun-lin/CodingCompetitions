@@ -4,37 +4,6 @@
 
 using namespace std;
 
-/*
-sample input
-3
-3 4
-2 2
-2 3
-
-sample output
-Case #1:
-..+-+-+-+
-..|.|.|.|
-+-+-+-+-+
-|.|.|.|.|
-+-+-+-+-+
-|.|.|.|.|
-+-+-+-+-+
-Case #2:
-..+-+
-..|.|
-+-+-+
-|.|.|
-+-+-+
-Case #3:
-..+-+-+
-..|.|.|
-+-+-+-+
-|.|.|.|
-+-+-+-+
-*/
-
-
 void print(vector<vector<char>>& matrix)
 {
 	for (auto& r : matrix)

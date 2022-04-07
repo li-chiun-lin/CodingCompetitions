@@ -11,3 +11,24 @@ The first line of the input gives the number of test cases, **T**. **T** test ca
 
 For each test case, output one line containing Case #***x***
 : ***y***, where ***x*** is the test case number (starting from 1) and ***y*** is the maximum number of input dice that can be put in a straight. 
+
+### Sample Input
+```
+4
+4
+6 10 12 8
+6
+5 4 5 4 4 4
+10
+10 10 7 6 7 4 4 5 7 4
+1
+10
+```
+
+### Sample Output
+```
+Case #1: 4
+Case #2: 5
+Case #3: 9
+Case #4: 1
+```

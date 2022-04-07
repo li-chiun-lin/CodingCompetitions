@@ -26,3 +26,35 @@ The first line of the input gives the number of test cases, **T**. **T** lines f
 
 For each test case, output one line containing Case #***x***
 :, where ***x*** is the test case number (starting from 1). Then, output **(2 ⋅ R) + 1** additional lines with the ASCII art drawing of a punched card with **R** rows and **C** columns. 
+
+### Sample Input
+```
+3
+3 4
+2 2
+2 3
+```
+
+### Sample Output
+```
+Case #1:
+..+-+-+-+
+..|.|.|.|
++-+-+-+-+
+|.|.|.|.|
++-+-+-+-+
+|.|.|.|.|
++-+-+-+-+
+Case #2:
+..+-+
+..|.|
++-+-+
+|.|.|
++-+-+
+Case #3:
+..+-+-+
+..|.|.|
++-+-+-+
+|.|.|.|
++-+-+-+
+```
