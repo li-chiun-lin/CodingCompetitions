@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="3D_Printing.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="problem.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

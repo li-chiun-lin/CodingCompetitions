@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021_Qualification", "2021_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Consistency1", "FacebookHackerCup\2021_Qualification\Consistency1\Consistency1.vcxproj", "{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Consistency2", "FacebookHackerCup\2021_Qualification\Consistency2\Consistency2.vcxproj", "{F77194C7-41F8-409B-A9DC-052FF4E07FF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -69,6 +71,14 @@ Global
 		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Release|x64.Build.0 = Release|x64
 		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Release|x86.ActiveCfg = Release|Win32
 		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE}.Release|x86.Build.0 = Release|Win32
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Debug|x64.ActiveCfg = Debug|x64
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Debug|x64.Build.0 = Debug|x64
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Debug|x86.Build.0 = Debug|Win32
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Release|x64.ActiveCfg = Release|x64
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Release|x64.Build.0 = Release|x64
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Release|x86.ActiveCfg = Release|Win32
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +91,7 @@ Global
 		{2E8476BB-A4FD-4A64-B959-8664A4A4F5A5} = {B1AA9273-FFF2-4D56-9784-EDD90381F9E0}
 		{AB74D876-48DE-4C10-BC7A-785D7E3C229E} = {8531673C-790B-4ADC-B792-98C17C7B8721}
 		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE} = {AB74D876-48DE-4C10-BC7A-785D7E3C229E}
+		{F77194C7-41F8-409B-A9DC-052FF4E07FF2} = {AB74D876-48DE-4C10-BC7A-785D7E3C229E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31EB08D4-A65F-42B0-A45C-8DEDED4C8D8F}

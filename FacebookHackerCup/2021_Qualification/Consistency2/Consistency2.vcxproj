@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7fa43b87-a0e0-4da8-887e-0bf0f37e64de}</ProjectGuid>
-    <RootNamespace>Consistency1</RootNamespace>
+    <ProjectGuid>{f77194c7-41f8-409b-a9dc-052ff4e07ff2}</ProjectGuid>
+    <RootNamespace>Consistency2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Consistency1.cpp" />
+    <ClCompile Include="Consistency2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
