@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="Punched_Card.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Problem.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
