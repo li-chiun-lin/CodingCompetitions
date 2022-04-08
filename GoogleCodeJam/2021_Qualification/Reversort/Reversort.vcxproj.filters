@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="d1000000.cpp">
+    <ClCompile Include="Reversort.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

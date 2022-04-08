@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{545f7f52-39fe-40bd-b2f5-358008102535}</ProjectGuid>
-    <RootNamespace>My3DPrinting</RootNamespace>
+    <ProjectGuid>{ca5b6c0c-6eb6-418a-89fa-0b8295efbbe6}</ProjectGuid>
+    <RootNamespace>Reversort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="3D_Printing.cpp" />
+    <ClCompile Include="Reversort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />

@@ -25,7 +25,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Consistency2", "FacebookHac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021_Qualification", "2021_Qualification", "{26AB4EB1-39B2-4C6D-9EB1-D90B156C7DFB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reversort", "GoogleCodeJam\2022_Qualification\Reversort\Reversort.vcxproj", "{CA5B6C0C-6EB6-418A-89FA-0B8295EFBBE6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Moons_Umbrellas", "GoogleCodeJam\2021_Qualification\Moons_Umbrellas\Moons_Umbrellas.vcxproj", "{223229CA-3981-4948-84C2-399867EA6F14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F31600E7-166C-4E6B-8795-9E6180AF7EB7}"
+	ProjectSection(SolutionItems) = preProject
+		skeleton.txt = skeleton.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reversort", "GoogleCodeJam\2021_Qualification\Reversort\Reversort.vcxproj", "{CA5B6C0C-6EB6-418A-89FA-0B8295EFBBE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +90,14 @@ Global
 		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Release|x64.Build.0 = Release|x64
 		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Release|x86.ActiveCfg = Release|Win32
 		{F77194C7-41F8-409B-A9DC-052FF4E07FF2}.Release|x86.Build.0 = Release|Win32
+		{223229CA-3981-4948-84C2-399867EA6F14}.Debug|x64.ActiveCfg = Debug|x64
+		{223229CA-3981-4948-84C2-399867EA6F14}.Debug|x64.Build.0 = Debug|x64
+		{223229CA-3981-4948-84C2-399867EA6F14}.Debug|x86.ActiveCfg = Debug|Win32
+		{223229CA-3981-4948-84C2-399867EA6F14}.Debug|x86.Build.0 = Debug|Win32
+		{223229CA-3981-4948-84C2-399867EA6F14}.Release|x64.ActiveCfg = Release|x64
+		{223229CA-3981-4948-84C2-399867EA6F14}.Release|x64.Build.0 = Release|x64
+		{223229CA-3981-4948-84C2-399867EA6F14}.Release|x86.ActiveCfg = Release|Win32
+		{223229CA-3981-4948-84C2-399867EA6F14}.Release|x86.Build.0 = Release|Win32
 		{CA5B6C0C-6EB6-418A-89FA-0B8295EFBBE6}.Debug|x64.ActiveCfg = Debug|x64
 		{CA5B6C0C-6EB6-418A-89FA-0B8295EFBBE6}.Debug|x64.Build.0 = Debug|x64
 		{CA5B6C0C-6EB6-418A-89FA-0B8295EFBBE6}.Debug|x86.ActiveCfg = Debug|Win32
@@ -105,6 +120,7 @@ Global
 		{7FA43B87-A0E0-4DA8-887E-0BF0F37E64DE} = {AB74D876-48DE-4C10-BC7A-785D7E3C229E}
 		{F77194C7-41F8-409B-A9DC-052FF4E07FF2} = {AB74D876-48DE-4C10-BC7A-785D7E3C229E}
 		{26AB4EB1-39B2-4C6D-9EB1-D90B156C7DFB} = {49FF0E5A-5C6B-479A-AC5C-A74B77BBDC07}
+		{223229CA-3981-4948-84C2-399867EA6F14} = {26AB4EB1-39B2-4C6D-9EB1-D90B156C7DFB}
 		{CA5B6C0C-6EB6-418A-89FA-0B8295EFBBE6} = {26AB4EB1-39B2-4C6D-9EB1-D90B156C7DFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

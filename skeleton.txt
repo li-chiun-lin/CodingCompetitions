@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	int T;
+	cin >> T;
+
+	for (int i = 1; i <= T; ++i)
+	{
+
+		cout << "Case #" << i << ": ";
+		cout << cj(X, Y, S) << endl;
+	}
+
+	return 0;
+}

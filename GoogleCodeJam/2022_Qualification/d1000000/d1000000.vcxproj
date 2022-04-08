@@ -142,7 +142,7 @@
     <ClCompile Include="d1000000.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Problem.md" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

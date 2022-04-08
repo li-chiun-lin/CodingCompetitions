@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Reversort.cpp">
+    <ClCompile Include="Moons_Umbrellas.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Problem.md" />
+    <None Include="Readme.md" />
   </ItemGroup>
 </Project>
