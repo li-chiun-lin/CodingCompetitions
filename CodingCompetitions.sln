@@ -38,6 +38,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reversort_Engineering", "Go
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Xs_and_Os", "FacebookHackerCup\2021_Qualification\Xs_and_Os\Xs_and_Os.vcxproj", "{B1C3288E-E0E8-4FB5-93EE-F87D3387E0F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoldMine1", "FacebookHackerCup\2021_Qualification\GoldMine1\GoldMine1.vcxproj", "{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -126,6 +128,14 @@ Global
 		{B1C3288E-E0E8-4FB5-93EE-F87D3387E0F8}.Release|x64.Build.0 = Release|x64
 		{B1C3288E-E0E8-4FB5-93EE-F87D3387E0F8}.Release|x86.ActiveCfg = Release|Win32
 		{B1C3288E-E0E8-4FB5-93EE-F87D3387E0F8}.Release|x86.Build.0 = Release|Win32
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Debug|x64.ActiveCfg = Debug|x64
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Debug|x64.Build.0 = Debug|x64
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Debug|x86.Build.0 = Debug|Win32
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Release|x64.ActiveCfg = Release|x64
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Release|x64.Build.0 = Release|x64
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Release|x86.ActiveCfg = Release|Win32
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +154,7 @@ Global
 		{CA5B6C0C-6EB6-418A-89FA-0B8295EFBBE6} = {26AB4EB1-39B2-4C6D-9EB1-D90B156C7DFB}
 		{9A952EA0-6009-4953-AB1F-7FF13EE9C529} = {26AB4EB1-39B2-4C6D-9EB1-D90B156C7DFB}
 		{B1C3288E-E0E8-4FB5-93EE-F87D3387E0F8} = {AB74D876-48DE-4C10-BC7A-785D7E3C229E}
+		{FC5ECD15-68F0-47E1-BF36-AF606703F8D3} = {AB74D876-48DE-4C10-BC7A-785D7E3C229E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31EB08D4-A65F-42B0-A45C-8DEDED4C8D8F}

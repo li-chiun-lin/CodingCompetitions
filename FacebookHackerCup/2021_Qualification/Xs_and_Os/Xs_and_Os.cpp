@@ -10,7 +10,7 @@ vector<int> xo(vector<string> grid)
 {
 	map<int, set<set<pair<int, int>>>> hit;
 
-	int n = grid.size();
+	int n = (int)grid.size();
 
 	// each row
 	for (int i = 0; i < n; ++i)
@@ -68,11 +68,11 @@ vector<int> xo(vector<string> grid)
 
 	auto it = hit.begin();
 
-	return { it->first, (int)hit[it->first].size()};
+	return { it->first, (int)it->second.size() };
 
 
 
-	
+
 }
 
 int main()
