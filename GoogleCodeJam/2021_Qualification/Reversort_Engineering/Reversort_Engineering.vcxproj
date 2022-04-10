@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f77194c7-41f8-409b-a9dc-052ff4e07ff2}</ProjectGuid>
-    <RootNamespace>Consistency2</RootNamespace>
+    <ProjectGuid>{9a952ea0-6009-4953-ab1f-7ff13ee9c529}</ProjectGuid>
+    <RootNamespace>ReversortEngineering</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Consistency2.cpp" />
+    <ClCompile Include="Reversort_Engineering.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />

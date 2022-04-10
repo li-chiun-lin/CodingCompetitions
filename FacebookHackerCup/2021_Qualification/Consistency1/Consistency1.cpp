@@ -1,22 +1,3 @@
-/*
-sample input
-6
-ABC
-F
-BANANA
-FBHC
-FOXEN
-CONSISTENCY
-
-sample output
-Case #1: 2
-Case #2: 0
-Case #3: 3
-Case #4: 4
-Case #5: 5
-Case #6: 12
-*/
-
 #include <iostream>
 #include <map>
 

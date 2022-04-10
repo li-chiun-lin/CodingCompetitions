@@ -39,9 +39,12 @@ Case #1: -8
 ```
 
 ### Dynamic Programming
-- f(?s)=min(f(Cs),f(Js))
-- f(a?s)=min(f(aCs),f(aJs)) for a∈{C,J}
-- f(aas)=f(as) for a∈{C,J}
-- f(CJs)=X+f(Js)
-- f(JCs)=Y+f(Cs)
-- f(s)=0, if the length of s≤1
+- *f*(?*s*) = min( *f*(C*s*), *f*(J*s*) )
+- *f*(a?*s*) = min( *f*(aC*s*), *f*(aJ*s*) ) for a ∈ {C, J}
+- *f*(aa*s*) = *f*(a*s*) for a ∈ {C, J}
+- *f*(CJ*s*) = X+*f*(J*s*)
+- *f*(JC*s*) = Y+*f*(C*s*)
+- *f*(*s*) = 0, if the length of *s* ≤ 1
+
+The most tricky part is how to define the state of dp, here is my solution:
+> dp[index of current char][the current char is 'C', 'J' or '?'][the next char is 'C', 'J' or '?']

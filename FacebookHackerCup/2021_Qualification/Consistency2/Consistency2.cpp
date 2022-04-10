@@ -1,152 +1,131 @@
-/*
-sample input
-7
-ABC
-2
-BA
-CA
-ABC
-2
-AB
-AC
-F
-0
-BANANA
-4
-AB
-AN
-BA
-NA
-FBHC
-4
-FB
-BF
-HC
-CH
-FOXEN
-8
-NI
-OE
-NX
-EW
-OI
-FE
-FN
-XW
-CONSISTENCY
-26
-AB
-BC
-CD
-DE
-EF
-FG
-GH
-HI
-IJ
-JK
-KL
-LM
-MN
-NO
-OP
-PQ
-QR
-RS
-ST
-TU
-UV
-VW
-WX
-XY
-YZ
-ZA
-
-sample output
-Case #1: 2
-Case #2: -1
-Case #3: 0
-Case #4: 3
-Case #5: -1
-Case #6: 8
-Case #7: 100
-*/
-
 #include <iostream>
+#include <iomanip>
 #include <vector>
 #include <map>
 #include <algorithm>
+#include <queue>
 
 using namespace std;
 
-void print(map<char, vector<char>>& adj)
+void print(map<int, vector<int>>& adj)
 {
 	for (auto& h : adj)
 	{
-		cout << h.first << ": ";
+		cout << (char)('A' + h.first) << ": ";
 		for (auto& x : h.second)
-			cout << x << " ";
+			cout << (char)('A' + x) << " ";
 		cout << endl;
 	}
 	cout << endl;
 }
 
-void print(map<char, int> &hit)
+void print(map<char, int>& hit)
 {
 	for (auto& h : hit)
-	{
 		cout << h.first << " - " << h.second << endl;
-	}
 }
 
-int dfs(map<char, int> &hit, map<char, vector<char>> &adj, map<char, bool> &visited, int n, int u, int &ret)
+void print(vector<vector<int>>& dst)
 {
-	int cnt = 0;
-	visited[u] = true;
+	cout << "   ";
+	for (char i = 'A'; i <= 'Z'; ++i)
+		cout << setw(3) << i;
+	cout << endl;
 
-	for (int v : adj[u])
+	for (int i = 0; i < 26; ++i)
 	{
-		if (visited[v])
-			continue;
+		cout << setw(3) << (char)('A' + i);
+		for (int j = 0; j < 26; ++j)
+			cout << setw(3) << (dst[i][j] == INT_MAX ? -1 : dst[i][j]);
+		cout << endl;
+	}
+	cout << endl;
+}
 
-		cnt += dfs(hit, adj, visited, n, v, ret) + hit[v];
+int bfs(int from, int to, map<int, vector<int>>& adj)
+{
+	queue<int> que;
+	map<int, bool> visited;
+	int s = 0;
+	int p = 0;
+
+	que.push(from);
+	visited[from] = true;
+
+	while (s = que.size())
+	{
+		while (s--)
+		{
+			char u = que.front();
+			que.pop();
+
+			if (u == to)
+				return p;
+
+			for (char v : adj[u])
+			{
+				if (visited[v])
+					continue;
+
+				visited[v] = true;
+				que.push(v);
+			}
+		}
+
+		++p;
 	}
 
-	visited[u] = false;
-
-	return cnt;
+	return INT_MAX;
 }
+
+
 
 int consis2(string str, vector<string> vec)
 {
-	map<char, int> hit;
-	map<char, vector<char>> adj;
-	map<char, bool> visited;
-	int ret = INT_MAX;
+	map<int, int> hit;
+	map<int, vector<int>> adj;
+	vector<vector<int>> dst(26, vector<int>(26, INT_MAX));
 
 	for (char c : str)
-		++hit[c];
+		++hit[c - 'A'];
 
 	if (hit.size() == 1)
 		return 0;
 
-	for (string& s : vec)
-	{
-		adj[s[1]].push_back(s[0]);
-	}
+	for (auto& e : vec)
+		adj[e[0] - 'A'].push_back(e[1] - 'A');
 
-	//print(hit);
+	// create table
+	for (int i = 0; i < 26; ++i)
+		for (int j = 0; j < 26; ++j)
+			dst[i][j] = bfs(i, j, adj);
+
 	//print(adj);
+	//print(dst);
 
+	int m = INT_MAX;
 
-	for (auto& h : hit)
+	for (int v = 0; v < 26; ++v)
 	{
-		int r = dfs(hit, adj, visited, str.size(), h.first, ret);
-		if (r)
-			ret = min(ret, r);
+		int c = 0;
+
+		for (auto& u : hit)
+		{
+			if (dst[u.first][v] == INT_MAX)
+			{
+				c = INT_MAX;
+				break;
+			}
+
+			c += dst[u.first][v] * u.second;
+		}
+
+		//cout << "to " << (char)(v + 'A') << " " << (c == INT_MAX ? -1 : c) << endl;
+
+		m = min(m, c);
 	}
 
-	return ret == INT_MAX ? -1 : ret;
+	return m == INT_MAX ? -1 : m;
 }
 
 int main()
