@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <map>
 
 using namespace std;
 
@@ -12,7 +14,7 @@ int main()
 	{
 
 		cout << "Case #" << i << ": ";
-		cout << cj(X, Y, S) << endl;
+		cout << 0 << endl;
 	}
 
 	return 0;

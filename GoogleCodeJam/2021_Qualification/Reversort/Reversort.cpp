@@ -18,7 +18,7 @@ int reversort(vector<int>& vec)
     for (int i = 0; i < vec.size() - 1; ++i)
     {
         auto min = min_element(vec.begin() + i, vec.end());
-        int j = min - vec.begin();
+        int j = (int)(min - vec.begin());
 
         //cout << (j - i + 1) << " " << i << j << endl;
 
