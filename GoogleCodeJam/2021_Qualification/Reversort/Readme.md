@@ -1,8 +1,10 @@
-﻿ Reversort is an algorithm to sort a list of distinct integers in increasing order. The algorithm is based on the "Reverse" operation. Each application of this operation reverses the order of some contiguous part of the list.
+﻿ # Problem
+ 
+ Reversort is an algorithm to sort a list of distinct integers in increasing order. The algorithm is based on the "Reverse" operation. Each application of this operation reverses the order of some contiguous part of the list.
 
 The pseudocode of the algorithm is the following:
 
-```
+```text
 Reversort(L):
   for i := 1 to length(L) - 1
     j := position with the minimum value in L between i and length(L), inclusive
@@ -24,10 +26,9 @@ In the example above, the iterations cost **3**, **1**, and **2**, in that order
 
 Given the initial list, compute the cost of executing Reversort on it.
 
+## Sample input
 
-
-### Sample Input
-```
+```text
 3
 4
 4 2 1 3
@@ -37,8 +38,9 @@ Given the initial list, compute the cost of executing Reversort on it.
 7 6 5 4 3 2 1
 ```
 
-### Sample Output
-```
+## Sample output
+
+```text
 Case #1: 6
 Case #2: 1
 Case #3: 12

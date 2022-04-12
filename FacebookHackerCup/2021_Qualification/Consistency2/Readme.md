@@ -1,13 +1,16 @@
-﻿Connie received a string ***S*** for her birthday, consisting entirely of uppercase letters (each between "A" and "Z", inclusive).
+﻿# Problem
+
+Connie received a string ___S___ for her birthday, consisting entirely of uppercase letters (each between "A" and "Z", inclusive).
 
 However, Connie really only likes nice, consistent strings. She considers a string to be consistent if and only if all of its letters are the same.
 
-Each second, Connie may choose one letter in ***S*** and replace it with a different letter. There are ***K*** different types of replacements she may make, with the iiith one involving choosing letter ___A~i~___ anywhere in ___S___ and replacing it with letter ___B~i~___ ​. No type of replacement (ordered pair of ___A~i~___ ​and ___B~i~___) is given twice. There is no limit on how many times she may end up using each type of replacement. If a letter appears multiple times in ***S***, she may only replace a single occurrence per second.
+Each second, Connie may choose one letter in ___S___ and replace it with a different letter. There are ___K___ different types of replacements she may make, with the iiith one involving choosing letter ___A<sub>i</sub>___ anywhere in ___S___ and replacing it with letter ___B<sub>i</sub>___ ​. No type of replacement (ordered pair of ___A<sub>i</sub>___ ​and ___B<sub>i</sub>___) is given twice. There is no limit on how many times she may end up using each type of replacement. If a letter appears multiple times in ___S___, she may only replace a single occurrence per second.
 
-Help her determine the minimum number of seconds required to change ***S*** into any consistent string, if possible. If it's impossible to ever do so, output -1 instead. Note that ***S*** might already be consistent, in which case 0 seconds would be required.
+Help her determine the minimum number of seconds required to change ___S___ into any consistent string, if possible. If it's impossible to ever do so, output -1 instead. Note that ___S___ might already be consistent, in which case 0 seconds would be required.
 
-### Sample input
-```
+## Sample input
+
+```text
 7
 ABC
 2
@@ -70,8 +73,10 @@ XY
 YZ
 ZA
 ```
-### Sample output
-```
+
+## Sample output
+
+```text
 Case #1: 2
 Case #2: -1
 Case #3: 0

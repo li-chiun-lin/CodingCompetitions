@@ -1,3 +1,5 @@
+# Problem 
+
 Connie received a string ***S*** for her birthday, consisting entirely of uppercase letters (each between "A" and "Z", inclusive).
 
 However, Connie really only likes nice, consistent strings. She considers a string to be consistent if and only if all of its letters are the same.
@@ -6,8 +8,9 @@ Each second, Connie may choose one letter in ***S*** and replace it with a diffe
 
 Help her determine the minimum number of seconds required to change ***S*** into any consistent string. Note that ***S*** might already be consistent, in which case 0 seconds would be required.
 
-### Sample input
-```
+## Sample input
+
+```text
 6
 ABC
 F
@@ -16,8 +19,10 @@ FBHC
 FOXEN
 CONSISTENCY
 ```
-### Sample output
-```
+
+## Sample output
+
+```text
 Case #1: 2
 Case #2: 0
 Case #3: 3
