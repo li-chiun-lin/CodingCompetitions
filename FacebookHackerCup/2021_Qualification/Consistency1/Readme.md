@@ -1,4 +1,4 @@
-# Problem 
+# Problem
 
 Connie received a string ***S*** for her birthday, consisting entirely of uppercase letters (each between "A" and "Z", inclusive).
 

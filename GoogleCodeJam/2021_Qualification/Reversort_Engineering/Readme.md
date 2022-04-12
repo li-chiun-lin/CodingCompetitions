@@ -1,6 +1,6 @@
-﻿ # Problem
+﻿# Problem
 
- Reversort is an algorithm to sort a list of distinct integers in increasing order. The algorithm is based on the "Reverse" operation. Each application of this operation reverses the order of some contiguous part of the list.
+Reversort is an algorithm to sort a list of distinct integers in increasing order. The algorithm is based on the "Reverse" operation. Each application of this operation reverses the order of some contiguous part of the list.
 
 The pseudocode of the algorithm is the following:
 
