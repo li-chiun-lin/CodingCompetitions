@@ -52,7 +52,7 @@ int bfs(int from, int to, map<int, vector<int>>& adj)
 	que.push(from);
 	visited[from] = true;
 
-	while (s = que.size())
+	while (s = (int)que.size())
 	{
 		while (s--)
 		{
