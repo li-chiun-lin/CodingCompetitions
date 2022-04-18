@@ -65,7 +65,7 @@ int appendsort(vector<string> x)
 						++j;
 					}
 
-					int k = cur.size() - 1;
+					int k = (int)cur.size() - 1;
 
 					while (cur[k] == '9')
 						cur[k --] = '0';
