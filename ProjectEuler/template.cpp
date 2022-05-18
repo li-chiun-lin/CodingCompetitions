@@ -3,6 +3,7 @@
 */
 
 #include <algorithm>
+#include <climits>
 #include <cmath>
 #include <cstdlib>
 #include <fstream>

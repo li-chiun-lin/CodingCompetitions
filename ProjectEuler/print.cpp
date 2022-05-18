@@ -11,6 +11,17 @@ void print(vector<vector<int>> &m)
 
 void print(vector<vector<int>> &m)
 {
+	for (auto &r : m)
+	{
+		for (auto c : r)
+			cout << setw(3) << c;
+		cout << endl;
+	}
+	cout << endl;
+}
+
+void print(vector<vector<int>> &m)
+{
 	for (int i = 0; i < m.size(); ++i)
 	{
 		cout << i << " : ";
