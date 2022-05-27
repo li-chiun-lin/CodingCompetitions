@@ -58,6 +58,17 @@ void print(vector<int> &v)
 	cout << endl;
 }
 
+void print(vector<string> &p)
+{
+	for (string &s : p)
+		cout << s << " ";
+	cout << endl;
+}
+
+
+
+
+
 void print(set<long long> &s)
 {
 	for (auto x : s)
