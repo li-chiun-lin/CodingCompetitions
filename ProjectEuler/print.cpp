@@ -46,21 +46,28 @@ void print(vector<vector<int>> &m)
 
 void print(vector<int> &v)
 {
-	for (int x : v)
+	for (auto x : v)
 		cout << x;
 	cout << endl;
 }
 
 void print(vector<int> &v)
 {
-	for (int x : v)
+	for (auto x : v)
 		cout << x << " ";
 	cout << endl;
 }
 
 void print(vector<string> &p)
 {
-	for (string &s : p)
+	for (auto &s : p)
+		cout << s << " ";
+	cout << endl;
+}
+
+void print(vector<long long> &p)
+{
+	for (auto &s : p)
 		cout << s << " ";
 	cout << endl;
 }
