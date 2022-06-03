@@ -1,4 +1,6 @@
 /*
+5%
+
 Consider all integer combinations of a<sup>b</sup> for 2 ≤ a ≤ 5 and 2 ≤ b ≤ 5:
 
 	2<sup>2</sup>=4, 2<sup>3</sup>=8, 2<sup>4</sup>=16, 2<sup>5</sup>=32

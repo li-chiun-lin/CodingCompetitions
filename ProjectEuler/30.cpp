@@ -1,4 +1,6 @@
 /*
+5%
+
 Surprisingly there are only three numbers that can be written as the sum of fourth powers of their digits:
 
 	1634 = 1<sup>4</sup> + 6<sup>4</sup> + 3<sup>4</sup> + 4<sup>4</sup>

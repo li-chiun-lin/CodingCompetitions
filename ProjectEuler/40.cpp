@@ -1,4 +1,6 @@
 /*
+5%
+
 An irrational decimal fraction is created by concatenating the positive integers:
 
 	0.12345678910_1_112131415161718192021...

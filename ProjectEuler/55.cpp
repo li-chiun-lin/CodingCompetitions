@@ -1,4 +1,6 @@
 /*
+5%
+
 If we take 47, reverse and add, 47 + 74 = 121, which is palindromic.
 
 Not all numbers produce palindromes so quickly. For example,
