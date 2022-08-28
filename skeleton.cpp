@@ -3,6 +3,7 @@
 */
 
 #include <algorithm>
+#include <climits>
 #include <cmath>
 #include <deque>
 #include <iomanip>
@@ -21,31 +22,13 @@ int main()
 	int T;
 	cin >> T;
 
-	for (int i = 1; i <= T; ++i)
+	for (int t = 1; t <= T; ++t)
 	{
 
-		cout << "Case #" << i << ": ";
-		cout << 0 << endl;
+		cout << "Case #" << t << ": ";
+		cout << 0 << "\n";
 	}
 
 	return 0;
 }
 
-void print(vector<vector<int>>& adj)
-{
-	for (int i = 0; i < adj.size(); ++i)
-	{
-		cout << setw(2) << i << " : ";
-		for (int x : adj[i])
-			cout << setw(2) << x;
-		cout << endl;
-	}
-	cout << endl;
-}
-
-void print(vector<int>& v)
-{
-	for (int x : v)
-		cout << setw(2) << x;
-	cout << endl;
-}
