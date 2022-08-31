@@ -1,6 +1,5 @@
 /*
-can not handle the 3000 x 3000 case.
-to be continued.
+
 */
 
 #include <algorithm>
@@ -50,142 +49,105 @@ void print(int R, int C, vector<vector<char>>& G)
     }
 }
 
-
-
 const int d[5] = {0, -1, 0, 1, 0};
 
-int cnt_friends(vector<vector<char>>& G, int i, int j)
+int cnt_good(int R, int C, vector<vector<bool>>& bad, int i, int j)
 {
-    int f = 0;
+    int good = 0;
 
     for (int k = 0; k < 4; ++k)
     {
         int ii = i + d[k];
         int jj = j + d[k + 1];
 
-        if (G[ii][jj] == '^' || G[ii][jj] == '|')
-            ++ f;
+        if (0 <= ii && ii < R && 0 <= jj && jj < C && ! bad[ii][jj])
+            ++ good;
     }
 
-    return f;
+    return good;
 }
 
-void update_friends(int i, int j, int v, vector<vector<int>>& friends)
-//void update_friends(int i, int j, int v, int** friends)
+void secondfriend_2(int R, int C, vector<string>& G)
 {
-    for (int k = 0; k < 4; ++k)
+    int cnt = 0;
+
+    for (int i = 0; i < R; ++i)
+        for (int j = 0; j < C; ++j)
+            if (G[i][j] == '^')
+                ++ cnt;
+
+    if (R == 1 || C == 1)
     {
-        int ii = i + d[k];
-        int jj = j + d[k + 1];
-
-        friends[ii][jj] += v;
-    }
-}
-
-bool dfs(vector<vector<char>>& G, int i, int j, vector<vector<int>>& friends)
-//bool dfs(vector<vector<char>>& G, int i, int j, int** friends)
-{
-    if (friends[i][j] >= 2)
-        return true;
-
-    vector<int> new_tree;
-
-    priority_queue<pair<int, int>> pq;
-
-    for (int k = 0; k < 4; ++k)
-    {
-        int ii = i + d[k];
-        int jj = j + d[k + 1];
-
-        if (G[ii][jj] == '.')
-            pq.push({friends[ii][jj], k});
-    }
-
-    if (friends[i][j] + pq.size() < 2)
-        return false;
-
-    while (pq.size() && friends[i][j] < 2)
-    {
-        int k = pq.top().second;
-        int ii = i + d[k];
-        int jj = j + d[k + 1];
-        pq.pop();
-
-        G[ii][jj] = '|';
-        new_tree.push_back(k);
-
-        update_friends(ii, jj, 1, friends);
-
-        if (! dfs(G, ii, jj, friends))
+        if (cnt)
+            cout << "Impossible\n";
+        else
         {
-            update_friends(ii, jj, -1, friends);
-            G[ii][jj] = '.';
-            new_tree.pop_back();
+            cout << "Possible\n";
+            print(G);
         }
-        
     }
-
-    if (friends[i][j] < 2)
+    else
     {
-        for (int k : new_tree)
-        {
-            int ii = i + d[k];
-            int jj = j + d[k + 1];
-            G[ii][jj] = '.';
-            update_friends(i, j, -1, friends);
-        }
+        vector<vector<bool>> bad(R, vector<bool>(C));
 
-        return false;
-    }
+        for (int i = 0; i < R; ++i)
+            for (int j = 0; j < C; ++j)
+                if (G[i][j] == '#')
+                    bad[i][j] = true;
 
-    return true;
-}
 
-void del_friends(int** friends, int R)
-{
-    for (int i = 0; i <= R + 1; ++i)
-        delete friends[i];
+        queue<pair<int, int>> que;
 
-    delete friends;
-}
-
-void secondfriend(int R, int C, vector<vector<char>>& G)
-{
-    vector<vector<int>> friends(R + 2, vector<int>(C + 2));
-
-    //int ** friends = new int*[R + 2];
-    //for (int i = 0; i <= R + 1; ++i)
-    //    friends[i] = new int[C + 2];
-
-    for (int i = 1; i <= R; ++i)
-        for (int j = 1; j <= C; ++j)
-        {
-            friends[i][j] = cnt_friends(G, i, j);
-
-            if (G[i][j] == '^' && friends[i][j] < 2)
+        for (int i = 0; i < R; ++i)
+            for (int j = 0; j < C; ++j)
             {
-                //vector<int> path;
-                if (! dfs(G, i, j, friends))
+                if (G[i][j] != '.')
+                    continue;
+
+                if (cnt_good(R, C, bad, i, j) < 2)
                 {
-                    cout << "Impossible\n";
-                    
-                    //del_friends(friends, R);
-                    return ;
+                    bad[i][j] = true;
+                    que.push({i, j});
                 }
-                else
+            }
+
+        while (que.size())
+        {
+            int i = que.front().first;
+            int j = que.front().second;
+            que.pop();
+
+            for (int k = 0; k < 4; ++k)
+            {
+                int ii = i + d[k];
+                int jj = j + d[k + 1];
+
+                if (0 <= ii && ii < R && 0 <= jj && jj < C && 
+                    G[ii][jj] == '.' && !bad[ii][jj] && cnt_good(R, C, bad, ii, jj) < 2)
                 {
-                    // update tree
+                    bad[ii][jj] = true;
+                    que.push({ii, jj});
                 }
             }
         }
 
-    //print(friends);
+        for (int i = 0; i < R; ++i)
+            for (int j = 0; j < C; ++j)
+                if (G[i][j] == '^' && bad[i][j])
+                {
+                    cout << "Impossible\n";
+                    return ;
+                }
 
-    cout << "Possible\n";
+        for (int i = 0; i < R; ++i)
+            for (int j = 0; j < C; ++j)
+                if (G[i][j] == '.' && ! bad[i][j])
+                    G[i][j] = '^';
 
-    print(R, C, G);
 
-    //del_friends(friends, R);
+        cout << "Possible\n";
+        print(G);
+    }
 }
 
 int main()
@@ -198,20 +160,14 @@ int main()
         int R, C;
         cin >> R >> C;
 
-        vector<vector<char>> G(R + 2, vector<char>(C + 2));
-    
-        char ch;
+        vector<string> G(R);
+        int cnt = 0;
 
-        for (int i = 0; i < R; ++i)
-            for (int j = 0; j < C; ++j)
-            {
-                cin >> ch;
-                G[i + 1][j + 1] = ch;
-            }
+        for (auto& g : G)
+            cin >> g;
 
 		cout << "Case #" << t << ": ";
-        cout << R << " " << C << " ";
-        secondfriend(R, C, G);
+		secondfriend_2(R, C, G);
 	}
 
 	return 0;

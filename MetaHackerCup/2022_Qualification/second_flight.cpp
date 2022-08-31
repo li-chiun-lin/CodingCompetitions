@@ -1,5 +1,4 @@
 /*
-run out of memeory
 */
 
 #include <algorithm>
@@ -12,6 +11,7 @@ run out of memeory
 #include <unordered_map>
 #include <queue>
 #include <set>
+#include <unordered_set>
 #include <stack>
 #include <string>
 #include <vector>
@@ -25,58 +25,59 @@ void print(vector<long long>& v)
 	cout << "\n";
 }
 
-void secondflight(int N, vector<vector<int>>& R, vector<vector<int>>& D)
+void secondflight_2(int N, vector<vector<int>>& R, vector<vector<int>>& D)
 {
     int M = R.size();
     int Q = D.size();
 
-    //set<int> ss;
-    //vector<vector<int>> dst(N + 1, vector<int>(N + 1));
-    //int **dst = new int *[N];
-    //for (int i = 0; i < N; ++i)
-    //    dst[i] = new int[N];
-
-    //unsigned long long **dst2 = new unsigned long long *[N];
-    //for (int i = 0; i < N; ++i)
-    //    dst2[i] = new unsigned long long[N];
-    //vector<vector<int>> dst2(N + 1, vector<int>(N + 1, -1));
-    vector<vector<int>> adj(N + 1);
-
-
-    vector<unordered_map<int, int>> dst(N + 1);
-    vector<unordered_map<int, long long>> dst2(N + 1);
+    unordered_map<int, unordered_map<int, int>> cap;
+    unordered_map<int, unordered_set<int>> adj;
+    unordered_map<int, int> deg;
 
     for (auto& r : R)
     {
-        dst[r[0]][r[1]] = r[2];
-        dst[r[1]][r[0]] = r[2];
+        cap[r[0]][r[1]] = r[2];
+        cap[r[1]][r[0]] = r[2];
 
-        adj[r[0]].push_back(r[1]);
-        adj[r[1]].push_back(r[0]);
+        adj[r[0]].insert(r[1]);
+        adj[r[1]].insert(r[0]);
+
+        ++ deg[r[0]];
+        ++ deg[r[1]];
     }
 
     vector<long long> ret;
+    unordered_map<int, unordered_map<int, long long>> cache;
 
     for (auto& d : D)
     {
-        #if 1
-        if (dst2[d[0]][d[1]] == 0)
+        if (deg[d[0]] > deg[d[1]])
+            swap(d[0], d[1]);
+
+        if (cache[d[0]].find(d[1]) != end(cache[d[0]]))
         {
-            long long cnt = 0;
-
-            for (auto& x : adj[d[0]])
-                cnt += min(dst[d[0]][x], dst[x][d[1]]);
-
-            dst2[d[0]][d[1]] = cnt + dst[d[0]][d[1]] * 2;
-            dst2[d[1]][d[0]] = dst2[d[0]][d[1]];
+            ret.push_back(cache[d[0]][d[1]]);
+            continue;
         }
         
-        ret.push_back(dst2[d[0]][d[1]]);
-        #endif
+        long long F = 0;
+
+        if (adj[d[0]].count(d[1]))
+            F += cap[d[0]][d[1]] * 2;
+
+        for (int x : adj[d[0]])
+        {
+            if (adj[x].count(d[1]))
+                F += min(cap[d[0]][x], cap[x][d[1]]);
+        }
+
+        cache[d[0]][d[1]] = F;
+        ret.push_back(F);
     }
 
     print(ret);
 }
+
 
 int main()
 {
@@ -99,7 +100,7 @@ int main()
             cin >> d[0] >> d[1];
 
 		cout << "Case #" << t << ": ";
-		secondflight(N, R, D);
+		secondflight_2(N, R, D);
 	}
 
 	return 0;

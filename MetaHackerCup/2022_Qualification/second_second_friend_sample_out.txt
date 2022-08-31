@@ -3,8 +3,3 @@ Case #2: Possible
 .
 #
 #
-Case #3: Possible
-^^^.
-^#^#
-^^^^
-^^^^

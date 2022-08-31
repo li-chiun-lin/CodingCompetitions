@@ -100,8 +100,39 @@ void secondfriend(int R, int C, vector<string>& G)
                 G[i][j] = '^';
 
     print(G);
+}
 
-    
+void secondfriend_2(int R, int C, vector<string>& G)
+{
+    int cnt = 0;
+
+    for (int i = 0; i < R; ++i)
+        for (int j = 0; j < C; ++j)
+            if (G[i][j] == '^')
+                ++ cnt;
+
+    if (R == 1 || C == 1)
+    {
+        if (cnt)
+        {
+            cout << "Impossible\n";
+        }
+        else
+        {
+            cout << "Possible\n";
+            print(G);
+        }
+    }
+    else
+    {
+        for (int i = 0; i < R; ++i)
+            for (int j = 0; j < C; ++j)
+                if (G[i][j] == '.')
+                    G[i][j] = '^';
+
+        cout << "Possible\n";
+        print(G);
+    }
 }
 
 int main()
@@ -121,7 +152,7 @@ int main()
             cin >> g;
 
 		cout << "Case #" << t << ": ";
-		secondfriend(R, C, G);
+		secondfriend_2(R, C, G);
 	}
 
 	return 0;
