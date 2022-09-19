@@ -60,3 +60,5 @@
 GoogleKickStart/2022_F/scheduling_a_meeting_ts2_input.txt filter=lfs diff=lfs merge=lfs -text
 GoogleKickStart/2022_F/story_of_seasons_ts2_input.txt filter=lfs diff=lfs merge=lfs -text
 GoogleKickStart/2022_F/story_of_seasons_ts3_input.txt filter=lfs diff=lfs merge=lfs -text
+MetaHackerCup/2022_R1/consecutive_cuts_chapter_2_input.txt filter=lfs diff=lfs merge=lfs -text
+MetaHackerCup/2022_R1/consecutive_cuts_chapter_1_input.txt filter=lfs diff=lfs merge=lfs -text
