@@ -68,3 +68,10 @@ void print(pair<int, int> p)
 {
     cout << p.first << " " << p.second << "\n";
 }
+
+void print(unordered_map<int, int>& hit)
+{
+    for (auto& h : hit)
+        cout << h.first << " = " << h.second << "\n";
+    cout << "\n";
+}
