@@ -1,0 +1,63 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{listings}
+
+\begin{document}
+	Assuming \(nums1 = [a_1, a_2, a_3, a_4, \dots, a_m]\) and \(nums2 = [b_1, b_2, b_3, b_4, \dots, b_n]\), then 
+	%
+	\[
+		nums3 =
+		\left (
+		 {\begin{array}{cccccccc}
+		 		
+				(a_1 \oplus b_1) & \oplus & (a_1 \oplus b_2) & \oplus & \cdots & \oplus & (a_1 \oplus b_n) & \oplus \\
+				(a_2 \oplus b_1) & \oplus & (a_2 \oplus b_2) & \oplus & \cdots & \oplus & (a_2 \oplus b_n) & \oplus \\
+				\vdots&  & \vdots &  & \ddots &  & \vdots\\
+				(a_m \oplus b_1) & \oplus & (a_m \oplus b_2) & \oplus & \cdots & \oplus & (a_m \oplus b_n) & 
+		\end{array} } 
+		\right )
+	\]
+	%
+	Or equivalently, 
+	\[
+	nums3 =
+	\left (
+	{\begin{array}{cccccccccccccccc}
+			a_1 & \oplus & b_1 & \oplus & a_1 & \oplus & b_2 & \oplus & \cdots & \oplus & a_1 & \oplus & b_n & \oplus \\
+			a_2 & \oplus & b_1 & \oplus & a_2 & \oplus & b_2 & \oplus & \cdots & \oplus & a_2 & \oplus & b_n & \oplus \\
+			    & \vdots &     & \vdots &     & \vdots &     & \vdots & \ddots & \vdots &     & \vdots &     &        \\
+			a_m & \oplus & b_1 & \oplus & a_m & \oplus & b_2 & \oplus & \cdots & \oplus & a_m & \oplus & b_n & 
+	\end{array} } 
+	\right )
+	\]
+	%
+	If \(m\) is even, then there will be even number of \(b_1, b_2, b_3, \dots, b_n\), which will be \(0\) after applying \(\oplus\).
+	If \(m\) is odd, then some even number of \(b_1, b_2, b_3, \dots, b_n\) will become \(0\) after applying \(\oplus\), and one of each \(b_1, b_2, b_3, \dots, b_n\) will remain, thus the result will be \(b_1 \oplus b_2 \oplus b_3 \oplus \dots \oplus b_n\).
+	\[
+	nums3 =
+	\left (
+	{\begin{array}{cccccccccccccccc}
+			
+			a_1 & \oplus & \mathbf{b_1} & \oplus & a_1 & \oplus & \mathbf{b_2} & \oplus & \cdots & \oplus & a_1 & \oplus & \mathbf{b_n} & \oplus \\
+			a_2 & \oplus & \mathbf{b_1} & \oplus & a_2 & \oplus & \mathbf{b_2} & \oplus & \cdots & \oplus & a_2 & \oplus & \mathbf{b_n} & \oplus \\
+			    & \vdots &              & \vdots &     & \vdots &              & \vdots & \ddots & \vdots &     & \vdots &              &        \\
+			a_m & \oplus & \mathbf{b_1} & \oplus & a_m & \oplus & \mathbf{b_2} & \oplus & \cdots & \oplus & a_m & \oplus & \mathbf{b_n} & 
+	\end{array} } 
+	\right )
+	\]
+	Similarly, if \(n\) is even, there will be even number of \(a_1, a_2, a_3, \dots, a_m\), which will be \(0\) after applying \(\oplus\).
+	And when \(n\) is odd, the result of applying \(\oplus\) will be \(a_1 \oplus a_2 \oplus a_3 \oplus \dots \oplus a_m\).
+	\[
+	nums3 =
+	\left (
+	{\begin{array}{cccccccccccccccc}
+			\mathbf{a_1} & \oplus & b_1 & \oplus & \mathbf{a_1} & \oplus & b_2 & \oplus & \cdots & \oplus & \mathbf{a_1} & \oplus & b_n & \oplus \\
+			\mathbf{a_2} & \oplus & b_1 & \oplus & \mathbf{a_2} & \oplus & b_2 & \oplus & \cdots & \oplus & \mathbf{a_2} & \oplus & b_n & \oplus \\
+			             & \vdots &     & \vdots &              & \vdots &     & \vdots & \ddots & \vdots &              & \vdots &     &        \\
+			\mathbf{a_m} & \oplus & b_1 & \oplus & \mathbf{a_m} & \oplus & b_2 & \oplus & \cdots & \oplus & \mathbf{a_m} & \oplus & b_n & 
+	\end{array} } 
+	\right )
+	\]
+	Hence we have our code.
+\end{document}
