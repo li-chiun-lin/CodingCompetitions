@@ -9,6 +9,7 @@
 #include <set>
 #include <stack>
 #include <string>
+#include <unordered_map>
 #include <vector>
 
 using namespace std;
@@ -73,5 +74,27 @@ void print(unordered_map<int, int>& hit)
 {
     for (auto& h : hit)
         cout << h.first << " = " << h.second << "\n";
+    cout << "\n";
+}
+
+void print(set<set<int>>& ss)
+{
+    for (auto& s : ss)
+    {
+        for (auto& x : s)
+            cout << x << " ";
+        cout << "\n";
+    }
+    cout << "\n";
+}
+
+void print(vector<set<int>>& ss)
+{
+    for (auto& s : ss)
+    {
+        for (auto& x : s)
+            cout << x << " ";
+        cout << "\n";
+    }
     cout << "\n";
 }
