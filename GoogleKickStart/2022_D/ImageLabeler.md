@@ -11,7 +11,9 @@ Your task is to find the maximum possible value of the success metric that can b
 ## Input
 
 The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
 The first line of each test case contains two integers $N$ and $M$: the number of regions, and the number of categories respectively.
+
 The next line contains $N$ integers $A_1,A_2,\dots,A_N$.
 
 ## Sample Input

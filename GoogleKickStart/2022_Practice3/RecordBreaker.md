@@ -11,4 +11,8 @@ Please help Isyana find out the number of record breaking days.
 
 ## Input
 
-The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case begins with a line containing the integer $N$. The second line contains $N$ integers. The $i$-th integer is $V_i$.
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
+Each test case begins with a line containing the integer $N$.
+
+The second line contains $N$ integers. The $i$-th integer is $V_i$.

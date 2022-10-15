@@ -12,12 +12,14 @@ Can you calculate the minimal time needed to type the word?
 
 ## Input
 
-The first line of the input gives the number of test cases, $T$
-. $T$ test cases follow.
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
 
 The first line of each test case contains one integer $N$: the length of the word $S$.
+
 The second line of each test case contains $N$ integers: each $S_i$ is the character at the $i$-th index.
+
 The third line of each test case contains one integer $M$: the length of the keyboard $K$.
+
 The fourth line of each test case contains $M$ integers: each $K_i$ is the character at the $i$-th key.
 
 ## Sample Input

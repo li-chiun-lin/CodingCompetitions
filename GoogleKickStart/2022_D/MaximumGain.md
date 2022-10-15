@@ -9,10 +9,15 @@ Can you help Charles choose the questions that will give him the maximum possibl
 ## Input
 
 The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
 The first line of each test case contains an integer $N$, which denotes the number of elements in the first array.
+
 The second line of each test case contains $N$ integers $A_1,A_2,\dots,A_N$. $A_i$ denotes the points gained for answering the $i$-th question of Audio Validation Task.
+
 The third line of each test case contains an integer $M$, which denotes the number of elements in the second array.
+
 The fourth line of each test case contains $M$ integers $B_1,B_2,\dots,B_M$. $B_i$ denotes the points gained for answering the i-th question of Image Labeler Task.
+
 The fifth line of each test case contains an integer $K$, which denotes the number of elements to be selected in total, from both arrays, using the process described above.
 
 ## Sample Input

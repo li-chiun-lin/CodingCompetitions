@@ -8,8 +8,9 @@ Unsurprisingly, each student wants to have the strongest possible mentor. For ea
 
 ## Input
 
-The first line of the input gives the number of test cases, $T$
-. $T$ test cases follow. Each test case consists of two lines.
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
+Each test case consists of two lines.
 
 The first line of each test case contains an integer $N$, representing the number of students in a group.
 

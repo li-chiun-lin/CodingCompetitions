@@ -8,8 +8,8 @@ Find the maximum achievable score by the bot, assuming that John is playing opti
 
 ## Input
 
-The first line of the input gives the number of test cases, $T$
-. $T$ test cases follow.
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
 The only line of each test case contains an integer $N$ representing the number of cells in the game.
 
 ## Sample Input

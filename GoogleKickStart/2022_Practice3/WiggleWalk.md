@@ -11,6 +11,8 @@ Can you help Banny determine which square the robot will finish in, after follow
 
 ## Input
 
-The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case starts with a line containing the five integers $N$, $R$, $C$, $S_R$, and $S_C$, the number of instructions, the number of rows, the number of columns, the robot's starting row, and the robot's starting column, respectively.
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
+Each test case starts with a line containing the five integers $N$, $R$, $C$, $S_R$, and $S_C$, the number of instructions, the number of rows, the number of columns, the robot's starting row, and the robot's starting column, respectively.
 
 Then, another line follows containing a single string consisting of $N$ characters; the $i$-th of these characters is the $i$-th instruction Banny gives the robot (one of $N$, $S$, $E$, or $W$, as described above).
