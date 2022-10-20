@@ -22,8 +22,8 @@ double hammer(double V, double D)
 {
     double t = (9.8 * D) / (V * V);
 
-    if (t < -1 || 1 < t)
-        return 45;
+	t = min(t, 1.0);
+	t = max(t, -1.0);
     
     return asin(t) / 2.0 * 180.0 / 3.14159;
 }

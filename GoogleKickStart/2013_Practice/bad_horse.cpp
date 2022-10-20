@@ -34,33 +34,39 @@ bool bad_horse(vector<vector<string>>& member)
     int size = 0;
     int g = 1;
     queue<string> que;
-
-    que.push(member[0][0]);
-    grp[member[0][0]] = g;
-
-    while (size = que.size())
+    
+    for (auto& a : adj)
     {
-        g *= -1;
-
-        while (size --)
+        if (grp[a.first])
+            continue;
+            
+        que.push(a.first);
+        grp[a.first] = g;
+    
+        while (size = que.size())
         {
-            auto u = que.front();
-            que.pop();
-
-            for (auto& v : adj[u])
+            g *= -1;
+    
+            while (size --)
             {
-                if (grp[v] == 0)
+                auto u = que.front();
+                que.pop();
+    
+                for (auto& v : adj[u])
                 {
-                    grp[v] = g;
-                    que.push(v);
+                    if (grp[v] == 0)
+                    {
+                        grp[v] = g;
+                        que.push(v);
+                    }
+                    else if (grp[v] == grp[u])
+                        return false;
                 }
-                else if (grp[v] == grp[u])
-                    return false;
             }
         }
     }
 
-    return grp.size() == n;
+    return true;
 }
 
 int main()
