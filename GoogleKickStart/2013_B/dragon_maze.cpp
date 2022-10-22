@@ -20,48 +20,6 @@ using namespace std;
 
 int d[] = {1, 0, -1, 0, 1};
 
-void dfs(vector<vector<int>>& Maze, int i, int j, int x, int y, int s, int acc, int& steps, int& ret)
-{
-    if (i == x && j == y)
-    {
-        if (steps > s)
-        {
-            //cout << "shorter path " << s << " " << acc << "\n";
-            steps = s;
-            ret = acc;
-        }
-        else if (steps == s)
-        {
-            //cout << "same length " << acc << "\n";
-            ret = max(ret, acc);
-        }
-
-        return;
-    }
-
-    if (s >= steps)
-        return;
-
-    int N = Maze.size();
-    int M = Maze[0].size();
-
-    for (int k = 0; k < 4; ++k)
-    {
-        int ii = i + d[k];
-        int jj = j + d[k + 1];
-
-        if (0 <= ii && ii < N && 0 <= jj && jj < M && Maze[ii][jj] >= 0)
-        {
-            int val = Maze[ii][jj];
-            Maze[ii][jj] = -2;
-            //cout << "go to " << ii << " " << jj << " " << acc + val << "\n";
-            dfs(Maze, ii, jj, x, y, s + 1, acc + val, steps, ret);
-            //cout << "back from " << ii << " " << jj << "\n";
-            Maze[ii][jj] = val;
-        }
-    }
-}
-
 int dragon_maze(vector<vector<int>>& Maze, int enx, int eny, int exx, int exy)
 {
     int N = Maze.size();
