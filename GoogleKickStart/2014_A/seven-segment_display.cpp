@@ -64,34 +64,41 @@ string seven(vector<string>& S)
     int limit = 1 << 7;
     vector<int> state(N);
 
+    // convert to binary representation
     for (int i = 0; i < N; ++i)
         state[i] = bin(S[i]);
 
     set<int> candidate;
 
+    // check every possible leading digit
     for (int h = 9; h >= 0; --h)
     {
+        // check every combination of broken LED
         for (int mask = 0; mask < limit; ++mask)
         {
             bool valid = true;
             int digit = h;
 
+            // for every state
             for (int i = 0; i < N && valid; ++i)
             {
+                // check if it is valid with the current broken LED combination.
                 if (state[i] != (format[digit] & mask))
                     valid = false;
 
+                // count down
                 digit = (digit - 1 + 10) % 10;
             }
 
             if (valid)
             {
-                //cout << h << " " << mask << "\n";
+                //record the possible next digit
                 candidate.insert(format[digit] & mask);
             }
         }
     }
 
+    // if there are more than one candidate, ambiguous
     if (candidate.size() == 1)
     {
         string ret = "";

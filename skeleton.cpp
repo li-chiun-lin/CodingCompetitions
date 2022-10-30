@@ -8,6 +8,7 @@
 #include <deque>
 #include <iomanip>
 #include <iostream>
+#include <list>
 #include <map>
 #include <queue>
 #include <set>
