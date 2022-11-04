@@ -48,6 +48,12 @@ void print(vector<int>& v)
 void print(vector<int>& v)
 {
 	for (int x : v)
+		cout << x << "\n";
+}
+
+void print(vector<int>& v)
+{
+	for (int x : v)
 		cout << setw(2) << x;
 	cout << endl;
 }
