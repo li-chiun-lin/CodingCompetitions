@@ -70,6 +70,14 @@ void print(vector<int>& v)
 	cout << endl;
 }
 
+void print(vector<double> v)
+{
+	cout << fixed << setprecision(9);
+	
+	for (auto x : v)
+		cout << x << "\n";
+}
+
 void print(vector<string>& v)
 {
 	for (auto& x : v)
