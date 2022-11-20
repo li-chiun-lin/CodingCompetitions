@@ -40,32 +40,32 @@ void print(vector<vector<int>>& v)
 
 void print(vector<int> v)
 {
-    if (v.empty())
-        return ;
+    if (v.size())
+    {
+        cout << v.front();
+        for (int i = 1; i < v.size(); ++i)
+            cout << " " << v[i];
+    }
 
-    cout << v.front();
-
-    for (int i = 1; i < v.size(); ++i)
-        cout << " " << v[i];
 	cout << "\n";
 }
 
 void print(vector<int>& v)
 {
-	for (int x : v)
+	for (auto x : v)
 		cout << x << " ";
 	cout << "\n";
 }
 
 void print(vector<int>& v)
 {
-	for (int x : v)
+	for (auto x : v)
 		cout << x << "\n";
 }
 
 void print(vector<int>& v)
 {
-	for (int x : v)
+	for (auto x : v)
 		cout << setw(2) << x;
 	cout << endl;
 }
@@ -123,4 +123,10 @@ void print(vector<set<int>>& ss)
         cout << "\n";
     }
     cout << "\n";
+}
+
+void print(vector<bool> v)
+{
+    for (auto x : v)
+        cout << (x ? "Yes" : "No") << "\n";
 }

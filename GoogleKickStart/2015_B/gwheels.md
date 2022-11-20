@@ -1,0 +1,7 @@
+# Problem
+
+A typical mountain bike has two groups of gears: one group connected to the pedals, and one group connected to the rear tire. A gear group consists of many gears, which usually have different numbers of teeth. A chain connects one of the gears in the pedal gear group to one of the gears in the tire gear group, and this determines the ratio between the cyclist's pedaling speed and the tire speed. For example, if the chain connects a gear with $5$ teeth on the pedals to a gear with $10$ teeth on the tires, the ratio will be $1/2$, since the cyclist needs to make the pedal gear rotate twice to make the tire rotate once. The cyclist can change the chain to connect any one gear from the pedal group to any one gear from the tire group.
+
+You have just bought a special new mountain bike with three groups of gears: one connected to the pedals, one connected to the tire, and one extra group in between. This mountain bike has two chains; the first chain must always connect one gear from the pedal gear group to one gear on the extra gear group, and the second chain must always connect one gear from the extra gear group to one gear on the tire gear group. Moreover, the two chains cannot both use the same gear from the extra gear group.
+
+Given the numbers of teeth on the available gears on the pedals, extra, and tire groups, is it possible to make the ratio (between pedaling speed and tire speed) be exactly $P/Q$? For a given set of gears, you may need to answer multiple such questions.
