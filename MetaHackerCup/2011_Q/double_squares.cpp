@@ -10,7 +10,6 @@
 #include <iostream>
 #include <list>
 #include <map>
-#include <numeric>
 #include <queue>
 #include <set>
 #include <stack>
@@ -21,6 +20,28 @@
 
 using namespace std;
 
+set<long long> ss;
+
+int double_square(long long X)
+{
+	long long v = 0;
+
+	while ((v = ss.size() * ss.size()) <= X)
+		ss.insert(v);
+
+	int cnt = 0;
+
+	for (auto a : ss)
+	{
+		if (a * 2 > X)
+			break;
+
+		cnt += ss.count(X - a);
+	}
+
+	return cnt;
+}
+
 int main()
 {
 	int T;
@@ -28,9 +49,11 @@ int main()
 
 	for (int t = 1; t <= T; ++t)
 	{
+		long long X;
+		cin >> X;
 
 		cout << "Case #" << t << ": ";
-		cout << 0 << "\n";
+		cout << double_square(X) << "\n";
 	}
 
 	return 0;
