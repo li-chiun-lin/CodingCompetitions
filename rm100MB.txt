@@ -1,0 +1,1 @@
+git filter-branch --tree-filter 'rm  -rf MetaHackerCup/2022_F/emerald_exhibiting_sample_out.txt' HEAD
