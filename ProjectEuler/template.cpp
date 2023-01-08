@@ -27,7 +27,7 @@ int euler(int n)
 
 int main()
 {
-	cout << euler(0) << endl;
+	cout << euler(0) << "\n";
 
 	return 0;
 }
