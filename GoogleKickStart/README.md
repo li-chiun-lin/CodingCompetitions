@@ -74,6 +74,10 @@
   - [ ] Watson and Intervals
   - [ ] Sherlock and Permutation Sorting
 - Round C
+  - [x] Monster Path
+  - [x] Safe Squares
+  - [x] Evaluation
+  - [ ] Soldiers
 - Round D
 - Round E
 
@@ -127,7 +131,6 @@
   - [x] GBus count
   - [x] Sort a scrambled itinerary
   - [x] Itz Chess
-
 
 ## 2013
 

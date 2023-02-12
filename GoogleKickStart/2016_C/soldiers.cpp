@@ -26,6 +26,12 @@
 
 using namespace std;
 
+bool soldiers(int N, vector<pair<int, int>>& soldier)
+{
+	
+	return true;
+}
+
 int main()
 {
 	int T;
@@ -33,9 +39,16 @@ int main()
 
 	for (int t = 1; t <= T; ++t)
 	{
+		int N;
+		cin >> N;
+
+		vector<pair<int, int>> soldier(N);
+
+		for (auto& [a, d] : soldier)
+			cin >> a >> d;
 
 		cout << "Case #" << t << ": ";
-		cout << 0 << "\n";
+		cout << (soldiers(N, soldier) ? "YES" : "No") << "\n";
 	}
 
 	return 0;

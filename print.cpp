@@ -103,6 +103,24 @@ void print(unordered_map<int, int>& hit)
     cout << "\n";
 }
 
+void print(map<string, int>& m)
+{
+	for (auto& [k, v] : m)
+		cout << "[" << k << "," << v << "] ";
+	cout << "\n";
+}
+
+void print(map<int, vector<int>>& m)
+{
+	for (auto& [u, vs] : m)
+	{
+		cout << u << ": ";
+		for (int v : vs)
+			cout << v << " ";
+		cout << endl;
+	}
+}
+
 void print(set<set<int>>& ss)
 {
     for (auto& s : ss)
