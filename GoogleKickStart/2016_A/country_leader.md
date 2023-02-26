@@ -7,3 +7,7 @@ For example, the name **GOOGLE** has four different alphabet letters: **E, G, L,
 If there is a tie, the person whose name comes earliest in alphabetical order is the leader.
 
 Given a list of names of the citizens of the country, can you determine who the leader is?
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case starts with a line with an interger $N$, the number of people in the country. Then $N$ lines follow. The $i$-th line represents the name of the $i$-th person. Each name contains at most $20$ characters and contains at least one alphabet letter.

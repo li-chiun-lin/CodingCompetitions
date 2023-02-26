@@ -11,3 +11,9 @@ Suppose we have an $N$-dimensional cuboid. The $N$ dimensions are numbered in or
 3. Reshape it into a $D$-dimensional cube that has exactly the same volume as that $D$-dimensional cuboid, and find the edge length of that cube.
 
 Each test case will have $M$ subproblems like this, all of which use the same original $N$-dimensional cuboid.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
+Each test case begins with two integers $N$ and $M$; $N$ is the number of dimensions and $M$ is the number of queries. Then there is one line with $N$ positive integers $a_i$, which are the lengths of the dimensions, in order. Then, $M$ lines follow. In the $i$-th line, there are two integers $L_i$ and $R_i$, which give the range of dimensions to use for the $i$-th subproblem.

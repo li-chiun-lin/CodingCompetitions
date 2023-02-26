@@ -7,3 +7,8 @@ Assume that Eve, the attacker, wants to steal a password from the victim Alice. 
 To simplify the problem, let's assume that Eve finds Alice's fingerprints only occurs on $M$ keys. And she knows, by another method, that Alice's password contains $N$ characters. Furthermore, every keystroke on the keyboard only generates a single, unique character. Also, Alice won't press other irrelevant keys like 'left', 'home', 'backspace' and etc.
 
 With the information, please count that how many possible passwords satisfy the statements above. Since the result could be large, please output the answer modulo $10^9+7$.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$.
+For the next $T$ lines, each contains two space-separated numbers $M$ and $N$, indicating a test case.

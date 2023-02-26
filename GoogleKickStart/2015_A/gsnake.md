@@ -19,3 +19,7 @@ Alex just learned how to program and wants to develop his own version of Snake, 
 - The game has a time limit: it will end after the move on the $10^9$-th second is complete (if the game has even gone on that long!)
 
 To test the game, Alex has written a series of TURN actions. Your task is to simulate that series of actions, and tell Alex the final length of the snake when the game is over. Remember that the game can end either because the snake's head and another cell of its body are in the same place after a move is complete, or because time runs out. In the former case, you should count both the head and the overlapping cell of its body as two separate cells, for the purpose of determining length.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test cases starts with three integers $S$, $R$, and $C$, where $S$ gives the number of turn actions and $R$ and $C$ represent the number of rows and columns of the board. $S$ lines follow; the $i$-th of these lines has an integer $X_i$, then a character $A_i$ that is either $L$ or $R$. Each of these lines corresponds to performing an action between $X_i$-th and $X_{i+1}$-th seconds. It's guaranteed that the actions are given in time order and there will never be more than one action between the same two seconds. However, you should note that the game may end before the snake gets to execute all of these actions.

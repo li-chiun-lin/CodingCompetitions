@@ -7,3 +7,7 @@ A path between two offices $X$ and $Y$ is a series of one or more roads that sta
 Company G specializes in efficient transport solutions, but the CEO has just realized that, embarrassingly enough, its own road network may be suboptimal! She wants to know which roads in the campus are inefficient. A road is inefficient if and only if it is not included in any shortest paths between any offices.
 
 Given the graph of offices and roads, can you help the CEO find all of the inefficient roads?
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each case begins with one line with two integers $N$ and $M$, indicating the number of offices and roads. This is followed by $M$ lines containing three integers each: $U_i$, $V_i$ and $C_i$, indicating the $i$-th road is between office $U_i$ and office $V_i$, and it takes $C_i$ minutes to travel on it.

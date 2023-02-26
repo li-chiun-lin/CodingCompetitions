@@ -13,3 +13,7 @@ Please note that the display works well despite those broken segments, which mea
 For convenience, we refer the seven segments of the display by the letters A to G as the picture below:
 
 ![image](seven-segment_display.png)
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. Each test case is a line containing an integer $N$ which is the number of states Tom recorded and a list of the $N$ states separated by spaces. Each state is encoded into a 7-character string represent the display of segment A-G, from the left to the right. Characters in the string can either be '1' or '0', denoting the corresponding segment is on or off, respectively.

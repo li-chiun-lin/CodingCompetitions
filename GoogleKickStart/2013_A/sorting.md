@@ -9,3 +9,7 @@ Each book has its own worth, which is represented by an integer. Books with odd 
 At the same time, they do not want to change the positions of the labels, so that after they have finished sorting the books according their rules, each book's owner's name should match with the label in its position.
 
 Here comes the problem. A sequence of $N$ values $s_0, s_1, \dots, s_{N-1}$ is given, which indicates the worths of the books from the left to the right on the bookshelf currently. Please help the brothers to find out the sequence of worths after sorting such that it satisfies the above description.
+
+## Input
+
+The first line of input contains a single integer $T$, the number of test cases. Each test case starts with a line containing an integer $N$, the number of books on the bookshelf. The next line contains $N$ integers separated by spaces, representing $s_0, s_1, ..., s_{N-1}$, which are the worths of the books.

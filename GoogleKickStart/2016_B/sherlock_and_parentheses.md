@@ -13,3 +13,7 @@ Moreover, the string must have as many different balanced non-empty substrings a
 Note that $S$ itself does not have to be balanced.
 
 Sherlock is sure that once he knows the maximum possible number of balanced non-empty substrings, he will be able to solve the problem. Can you help him find that maximum number?
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case consists of one line with two integers: $L$ and $R$.

@@ -5,3 +5,7 @@
 The game works as follows: First, someone who is not playing the game chooses a starting number $N$. Then, the two players take turns. On a player's turn, the player checks whether the current number $C$ is a gNumber. If it is, the player loses the game immediately. Otherwise, the player chooses a prime factor $P$ of $C$, and keeps dividing $C$ by $P$ until $P$ is no longer a factor of $C$. (For example, if the current number were $72$, the player could either choose $2$ and repeatedly divide by $2$ until reaching $9$, or choose $3$ and repeatedly divide by $3$ until reaching $8$.) Then the result of the division becomes the new current number, and the other player's turn begins.
 
 Laurence always gets to go first, and he hates to lose. Given a number $N$, he wants you to tell him which player is certain to win, assuming that both players play optimally.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow; each consists of a starting number $N$.

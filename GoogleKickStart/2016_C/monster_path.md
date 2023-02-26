@@ -8,3 +8,14 @@ Whenever you take a step into a cell in which you have not already caught a mons
 
 If you plan your path optimally before making any move, what is the maximum possible expected number of monsters that you will be able to catch?
 The battery can only support limited steps, so hurry up!
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+
+Each test case starts with a line of five integers: $R$, $C$, $R_s$, $C_s$ and $S$. $R$ and $C$ are the numbers of rows and columns in the grid; $R_s$ and $C_s$
+are the numbers of the row and column of your starting position, and $S$ is the number of steps you are allowed to take.
+
+The next line contains two decimals $P$ and $Q$, where $P$ is the probability of meeting a monster in cells with a monster attractor, and $Q$ is the probability of meeting a monster in cells without a monster attractor. $P$ and $Q$ are each given to exactly four decimal places.
+
+Each of the next $R$ lines contains contains $C$ space-separated characters; the $j$-th character of the $i$-th line represents the cell at row $i$ and column $j$. Each element is either . (meaning there is no attractor in that cell) or A (meaning there is an attractor in that cell).

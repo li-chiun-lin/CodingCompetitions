@@ -14,3 +14,7 @@ Pieces are represented as
 - (B) Bishop can only move diagonally, but can't overtake another piece.
 - (N) Knights can move to a square that is two squares horizontally and one square vertically OR one squares horizontally and two square vertically.
 - (P) Pawn can only kill by moving diagonally upwards (towards higher number i.e. A -> B, B -> C and so on).
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ Test cases follow. Each test case consists of the number of pieces, $N$. $N$ lines follow, each line mentions where a piece is present followed by - with the piece type.

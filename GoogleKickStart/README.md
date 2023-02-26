@@ -79,7 +79,15 @@
   - [x] Evaluation
   - [ ] Soldiers
 - Round D
+  - [x] Vote
+  - [x] Sitting
+  - [ ] Codejamon Cipher
+  - [ ] Stretch Rope
 - Round E
+  - [x] Diwali lightings
+  - [ ] Beautiful Numbers
+  - [ ] Partioning Number
+  - [ ] Sorting Array
 
 ## 2015
 

@@ -26,3 +26,7 @@ There are no mines adjacent to the clicked cell, so when it is revealed, it beco
 
 At this point, there are still un-revealed cells that do not contain mines (denoted by '.' characters), so the player has to click again in order to continue the game.
 You want to win the game as quickly as possible. You want to find the minimum number of clicks to win the game. Given the size of the board ($N \times N$), output such minimum number of clicks.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. Ttest cases follow. First line of each test case contains one integer $N$. $N$ lines strings with length $N$ follows containing '*' and '.', denotes the Minesweeper initial board.

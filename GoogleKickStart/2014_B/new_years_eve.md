@@ -29,3 +29,7 @@ Each glass can hold $250ml$ of wine. The bartender comes and starts pouring wine
 As wine is poured in the glasses, once a glass gets full, it overflows equally into the 3 glasses on the next level below it and touching it, without any wine being spilled outside. It doesn't overflow to the glasses on the same level beside it. It also doesn't overflow to the any level below next level (directly).
 
 Once that the bartender is done pouring $B$ bottles, figure out how much quantity in ml of wine is present in the glass on level $L$ with glass number $N$.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case consists of three integers, $B$, $L$, $N$, $B$ is the number of bottles the bartender pours and $L$ is the glass level in the pyramid and $N$ is the number of the glass in that level.

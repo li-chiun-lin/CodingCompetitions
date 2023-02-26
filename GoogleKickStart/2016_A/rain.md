@@ -21,3 +21,8 @@ Following is the height of the example island after rain:
 ```
 
 Given the matrix of the island, can you calculate the total increased height $sum(W[i] [j]-H[i] [j])$ after a heavy rain?
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.
+The first line of each test case contains two numbers $R$ and $C$ indicating the number of rows and columns of cells on the island. Then, there are $R$ lines of $C$ positive integers each. The $j$-th value on the $i$-th of these lines gives $H[i] [j]$: the height of the cell in the $i$-th row and the $j$-th column.

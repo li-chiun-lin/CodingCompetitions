@@ -7,3 +7,7 @@ Their gym trainer has given them three numbers, $A$, $B$, and $N$, and has asked
 Watson and Sherlock have noticed that if the total number of sprouts eaten by them on a given day is divisible by a certain integer $K$, then they get along well that day.
 
 So, Watson and Sherlock need your help to determine how many such pairs of $(i, j)$ exist, where $i \neq j$. As the number of pairs can be really high, please output it modulo $10^9+7$.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case consists of one line with 4 integers $A$, $B$, $N$ and $K$, as described above.

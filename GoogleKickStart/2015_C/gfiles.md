@@ -17,3 +17,7 @@ Some users may want to know the exact total number of files, so you want to modi
 ```
 
 But you've realized that it may or may not be possible to know the number of files. Given the status updates that the tool displays, either figure out how many files there are, or determine that it can't be done (i.e., there are multiple possible values for the number of files). The status updates are not guaranteed to occur at regular intervals and are not guaranteed to occur whenever a file is transferred.
+
+## Input
+
+The first line contains $T$, the number of test cases. $T$ test cases follow. Each test case consists of one line with an integer $N$, the number of status updates output by the tool, followed by $N$ lines with the format $P_i$ $K_i$, where $P_i$ and $K_i$ are integers representing the percentage and number of files transferred at some point in the process. The updates are given listed in chronological order -- that is, both the $P_i$ values and the $K_i$ values are nondecreasing throughout a test case.

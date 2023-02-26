@@ -7,3 +7,7 @@ The problem is -- Moist can't actually pick up the cards because they keep slidi
 Moist has figured out that the robot's sorting mechanism is very primitive. It scans the deck of cards from top to bottom. Whenever it finds a card that is lexicographically smaller than the previous card, it moves that card to its correct place in the stack above. This operation costs $1, and the robot resumes scanning down towards the bottom of the deck, moving cards one by one until the entire deck is sorted in lexicographical order from top to bottom.
 
 As wet luck would have it, Moist is almost broke, but keeping his trading cards in order is the only remaining joy in his miserable life. He needs to know how much it would cost him to use the robot to sort his deck of cards.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each one starts with a line containing a single integer, $N$. The next $N$ lines each contain the name of a figure skater, in order from the top of the deck to the bottom.

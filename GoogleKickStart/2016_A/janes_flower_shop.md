@@ -11,3 +11,7 @@ $-C_0 \times (1 + r)^M + \sum_{i = 1}^{M}{C_i \times (1 + r)^{M - i}} = 0$
 In this case, there is only one rate $(\approx 8.8963\%)$ that satisfies the equation.
 
 Help Jane to calculate the **IRR** for her business. It is guaranteed that $-1 < r < 1$, and there is exactly one solution in each test case.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case starts with a positive integer $M$: the number of months that the flower shop will be open. The next line contains $M + 1$ non-negative integers $C_i$ ($0 ≤ i ≤ M$). Note that $C_0$ represents the initial cost, all the remaining $C_i$'s are profits, the shop will always either make a positive net profit or zero net profit in each month, and will never have negative profits.

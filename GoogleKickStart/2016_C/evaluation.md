@@ -35,3 +35,9 @@ c=h()
 would not be valid, because **f(b, c)** has variable **c** as an argument, but variable **c** has not been an assignment variable yet.
 
 Another example is: **a=f(a)**. This list of statements can't be evaluated because the expression **f(a)** depends on the variable **a** itself, which makes it impossible to evaluate the statement.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. The first line of each test case contains an integer $N$: the number of assignment statements. Then, $N$ lines follow. Each contains one assignment statement.
+
+Each assignment statement consists of three parts: the assignment variable, the assignment operator, and the expression, with no spaces in between. The assignment operator is always $=$. All expressions consist of a function name, then $($, then zero or more comma-separated variable names, then $)$. All variables and function names consist of one or more lowercase English alphabet letters. No variable has the same name as a function. No variable will appear more than once as the assignment variable. However, variables may appear more than once in various functions (even within the same function), and functions may appear more than once.

@@ -22,3 +22,7 @@ $\vdots$
 $S_N$ = $S_{N-1}$ + "0" + switch(reverse($S_{N-1}$)).
 
 You need to figure out the $K$-th character of Sgoogol, where googol = $10^{100}$.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. Each of the next $T$ lines contains a number $K$.

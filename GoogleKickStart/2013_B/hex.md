@@ -16,3 +16,7 @@ Given a game state, help someone new to the game determine the status of a game 
 - "Nobody wins": If nobody has yet won the game. Note that a game of Hex can't end without a winner!
 
 Note that in any impossible state, the only correct answer is "Impossible", even if red or blue has formed a connected path of stones linking the opposing sides of the board marked by his or her colors.
+
+## Input
+
+The first line of input gives the number of test cases, $T$. $T$ test cases follow. Each test case start with the size of the side of the board, $N$. This is followed by a board of $N$ rows and $N$ columns consisting of only 'B', 'R' and '.' characters. 'B' indicates a cell occupied by blue stone, 'R' indicates a cell occupied by red stone, and '.' indicates an empty cell.

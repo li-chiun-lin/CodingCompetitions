@@ -7,3 +7,7 @@ Piloting the Hamjet is a not a job for your typical, meek-bodied superhero. That
 The Hamjet takes off at an angle of $\theta$ degrees up and a speed of $V$ meters per second. $V$ is a fixed value that is determined by the awesome power of the Hamjet engine and the capacity of its fuel tank. The destination is $D$ meters away. Your job is to program the Hamjet's computer to calculate $\theta$ given $V$ and $D$.
 
 Fortunately, the Hamjet's Wondeflonium hull is impervious to air friction. Even more fortunately, the Hamjet doesn't fly too far or too high, so you can assume that the Earth is flat, and that the acceleration due to gravity is a constant $9.8\ m/s^2$ down.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ lines follow. Each line will contain two positive integers, $V$ and $D$.

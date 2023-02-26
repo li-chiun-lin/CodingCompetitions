@@ -21,3 +21,10 @@ Please solve the following two questions:
 
 - Find the $n$-th element of the array, where $n$ starts from $1$.
 - Given $p/q$, find its position in the array.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow. Each test case consists of one line. The line contains a problem id ($1$ or $2$) and one or two additional integers:
+
+1. If the problem id is $1$, then only one integer $n$ is given, and you are expected to find the $n$-th element of the array.
+1. If the problem id is $2$, then two integers $p$ and $q$ are given, and you are expected to find the position of $p/q$ in the array.
