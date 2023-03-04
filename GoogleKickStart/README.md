@@ -61,6 +61,39 @@
   - [ ] Electricity
   - [ ] Level Design
 
+## 2017
+
+- Round A
+  - [ ] Square Counting
+  - [ ] Pattern Overlap
+  - [ ] Two Cubes
+- Round B
+  - [x] Math Encoder
+  - [ ] Center
+  - [ ] Christmas Tree
+- Round C
+  - [x] Ambiguous Cipher
+  - [ ] X Squared
+  - [ ] Magical Thinking v2
+  - [ ] The 4M Corporation
+- Round D
+  - [ ] Sightseeing
+  - [ ] Sherlock and Matrix Game
+  - [ ] Trash
+- Round E
+  - [ ] Trapezoid Counting
+  - [ ] Copy & Paste
+  - [ ] Blackhole
+- Round F
+  - [ ] Cake
+  - [ ] Kicksort
+  - [ ] Dance Battle
+  - [ ] Catch Them All
+- Round G
+  - [ ] Huge Numbers
+  - [ ] Cards Game
+  - [ ] Matrix Cutting
+
 ## 2016
 
 - Round A
