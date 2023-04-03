@@ -1,0 +1,3 @@
+# Problem
+
+You are in charge of deploying robots to harvest Kickium from a nearby asteroid. Robots are not designed to work as a team, so only one robot can harvest at any point of time. A single robot can be deployed for up to K units of time in a row before it returns for calibration, regardless of how much time it spends on harvesting during that period. Harvesting can only be done during specific time intervals. These time intervals do not overlap. Given K and the time intervals in which harvesting is allowed, what is the minimum number of robot deployments required to harvest at all possible times?

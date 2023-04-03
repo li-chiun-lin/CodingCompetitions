@@ -61,6 +61,119 @@
   - [ ] Electricity
   - [ ] Level Design
 
+## 2020
+
+- Round A
+  - [ ] Allocation
+  - [ ] Plates
+  - [ ] Workout
+  - [ ] Bundling
+- Round B
+  - [ ] Bike Tour
+  - [ ] Bus Routes
+  - [ ] Robot Path Decoding
+  - [ ] Wandering Robot
+- Round C
+  - [ ] Countdown
+  - [ ] Stable Wall
+  - [ ] Perfect Subarray
+  - [ ] Candies
+- Round D
+  - [ ] Record Breaker
+  - [ ] Alien Piano
+  - [ ] Beauty of tree
+  - [ ] Locked Doors
+- Round E
+  - [ ] Longest Arithmetic
+  - [ ] High Buildings
+  - [ ] Toys
+  - [ ] Golden Stone
+- Round F
+  - [ ] ATM Queue
+  - [ ] Metal Harvest
+  - [ ] Painters' Duel
+  - [ ] Yeetzhee
+- Round G
+  - [ ] Kick_Start
+  - [ ] Maximum Coins
+  - [ ] Combination Lock
+  - [ ] Merge Cards
+- Round H
+  - [ ] Retype
+  - [ ] Boring Numbers
+  - [ ] Rugby
+  - [ ] Friends
+
+## 2019
+
+- Round A
+  - [ ] Training
+  - [ ] Parcels
+  - [ ] Contention
+- Round B
+  - [ ] Building Palindromes
+  - [ ] Energy Stones
+  - [ ] Diverse Subarray
+- Round C
+  - [ ] Wiggle Walk
+  - [ ] Circuit Board
+  - [ ] Catch Some
+- Round D
+  - [ ] X or What?
+  - [ ] Latest Guests
+  - [ ] Food Stalls
+- Round E
+  - [ ] Cherries Mesh
+  - [ ] Code-Eat Switcher
+  - [ ] Street Checkers
+- Round F
+  - [ ] Flattening
+  - [ ] Teach Me
+  - [ ] Spectating Villages
+- Round G
+  - [ ] Book Reading
+  - [ ] The Equation
+  - [ ] Shifts
+- Round H
+  - [ ] H-index
+  - [ ] Diagonal Puzzle
+  - [ ] Elevanagram
+
+## 2018
+
+- Round A
+  - [ ] Even Digits
+  - [ ] Lucky Dip
+  - [ ] Scrambled Words
+- Round B
+  - [ ] No Nine
+  - [ ] Sherlock and the Bit Strings
+  - [ ] King's Circle
+- Round C
+  - [ ] Planet Distance
+  - [ ] Fairies and Witches
+  - [ ] Kickstart Alarm
+- Round D
+  - [ ] Candies
+  - [ ] Paragliding
+  - [ ] Funniest Word Search
+- Round E
+  - [ ] Board Game
+  - [ ] Milk Tea
+  - [ ] Yogurt
+- Round F
+  - [ ] Common Anagrams
+  - [ ] Specializing Villages
+  - [ ] Palindromic Sequence
+- Round G
+  - [ ] Product Triplets
+  - [ ] Combining Classes
+  - [ ] Cave Escape
+- Round H
+  - [ ] Big Buttons
+  - [ ] Mural
+  - [ ] Let Me Count The Ways
+
 ## 2017
 
 - Round A
