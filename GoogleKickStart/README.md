@@ -61,6 +61,49 @@
   - [ ] Electricity
   - [ ] Level Design
 
+## 2021
+
+- Round A
+  - [ ] K-Goodness String
+  - [ ] L Shaped Plots
+  - [ ] Rabbit House
+  - [ ] Checksum
+- Round B
+  - [ ] Increasing Substring
+  - [ ] Longest Progression
+  - [ ] Consecutive Primes
+  - [ ] Truck Delivery
+- Round C
+  - [ ] Smaller Strings
+  - [ ] Alien Generator
+  - [ ] Rock Paper Scissors
+  - [ ] Binary Operator
+- Round D
+  - [ ] Arithmetic Square
+  - [ ] Cutting Intervals
+  - [ ] Final Exam
+  - [ ] Primes and Queries
+- Round E
+  - [ ] Shuffled Anagrams
+  - [ ] Birthday Cake
+  - [ ] Palindromic Crossword
+  - [ ] Increasing Sequence Card Game
+- Round F
+  - [ ] Trash Bins
+  - [ ] Festival
+  - [ ] Star Trappers
+  - [ ] Graph Travel
+- Round G
+  - [ ] Dogs and Cats
+  - [ ] Staying Hydrated
+  - [ ] Banana Bunches
+  - [ ] Simple Polygon
+- Round H
+  - [ ] Transform the String
+  - [ ] Painter
+  - [ ] Silly Substitutions
+  - [ ] Dependent Events
+
 ## 2020
 
 - Round A
