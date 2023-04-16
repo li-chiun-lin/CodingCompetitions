@@ -7,15 +7,15 @@
   - [x] 3D Printing
   - [x] d1000000
   - [x] Chain Reactions
-  - [ ] Twisty Little Passages
+  - [ ] Twisty Little Passages (interactive)
 - Round 1A
   - [x] Double or One Thing
-  - [ ] Equal Sum
+  - [ ] Equal Sum (interactive)
   - [ ] Weightlifting
 - Round 1B
   - [x] Pancake Deque
   - [ ] Controlled Inflation
-  - [ ] ASeDatAb
+  - [ ] ASeDatAb (interactive)
 
 ## 2021
 
