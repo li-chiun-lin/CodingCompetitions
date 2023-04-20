@@ -16,6 +16,26 @@
   - [x] Pancake Deque
   - [ ] Controlled Inflation
   - [ ] ASeDatAb (interactive)
+- Round 1C
+  - [ ] Letter Blocks
+  - [ ] Squary
+  - [ ] Intranets
+- Round 2
+  - [ ] Spiraling Into Control
+  - [ ] Pixelated Circle
+  - [ ] Saving the Jelly
+  - [ ] I, O Bot
+- Round 3
+  - [ ] Revenge of GoroSort (interactive)
+  - [ ] Duck, Duck, Geese
+  - [ ] Mascot Maze
+  - [ ] Win As Second (interactive)
+- Final
+  - [ ] Wonderland Chase
+  - [ ] Goose, Goose, Ducks?
+  - [ ] Slide Parade
+  - [ ] Schrödinger and Pavlov
+  - [ ] Triangles
 
 ## 2021
 
@@ -29,3 +49,27 @@
   - [x] Append Sort
   - [ ] Prime Time
   - [ ] Hacked Exam
+- Round 1B
+  - [ ] Broken Clock
+  - [ ] Subtransmutation
+  - [ ] Digit Blocks (interactive)
+- Round 1C
+  - [ ] Closest Pick
+  - [ ] Roaring Years
+  - [ ] Double or NOTing
+- Round 2
+  - [ ] Minimum Sort (interactive)
+  - [ ] Matrygons
+  - [ ] Hidden Pancakes
+  - [ ] Retiling
+- Round 3
+  - [ ] Build-A-Pair
+  - [ ] Square Free
+  - [ ] Fence Design
+  - [ ] Binary Search Game
+- Final
+  - [ ] Cutting Cake
+  - [ ] Slide Circuits
+  - [ ] Ropes (interactive)
+  - [ ] Divisible Divisions
+  - [ ] Infinitree

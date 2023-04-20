@@ -1,5 +1,32 @@
 # Kick Start
 
+## Farewell
+
+- Round A
+  - [x] Colliding Encoding
+  - [x] Illumination Optimization
+  - [ ] Rainbow Sort
+  - [ ] ASCII Art
+  - [ ] Untie
+- Round B
+  - [ ] Collecting Pancakes
+  - [ ] Intruder Outsmarting
+  - [ ] Spacious Sets
+  - [ ] Railroad Maintenance
+  - [ ] Railroad Management
+- Round C
+  - [ ] Game Sort: Part 1
+  - [ ] Immunization Operation
+  - [ ] Evolutionary Algorithms
+  - [ ] The Decades of Coding Competitions
+  - [ ] Game Sort: Part 2
+- Round D
+  - [ ] Indispensable Overpass
+  - [ ] Genetic Sequences
+  - [ ] Hey Google, Drive!
+  - [ ] Old Gold
+  - [ ] Ring-Preserving Networks (interactive)
+
 ## 2022
 
 - Praction Session #1
