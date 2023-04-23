@@ -5,9 +5,9 @@
 - Round A
   - [x] Colliding Encoding
   - [x] Illumination Optimization
-  - [ ] Rainbow Sort
-  - [ ] ASCII Art
-  - [ ] Untie
+  - [x] Rainbow Sort
+  - [x] ASCII Art
+  - [x] Untie
 - Round B
   - [ ] Collecting Pancakes
   - [ ] Intruder Outsmarting

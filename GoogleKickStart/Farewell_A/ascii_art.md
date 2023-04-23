@@ -14,9 +14,8 @@ for i = 1 to 1e100:
 
 Here 1e100 represents the integer $10^{100}$ . For example:
 
-- When i=1, the program prints ABCD....XYZ.
-- When i=2, the program prints AABBCC...XXYYZZ.
-- When i=3, the program prints AAABBBCCC...XXXYYYZZZ.
+- When $i=1$, the program prints ABCD....XYZ.
+- When $i=2$, the program prints AABBCC...XXYYZZ.
+- When $i=3$, the program prints AAABBBCCC...XXXYYYZZZ.
 
-Of course, Cody-Jamal's program takes a long time to finish. Can you help him know what the N
--th printed letter will be without waiting for it to be printed?
+Of course, Cody-Jamal's program takes a long time to finish. Can you help him know what the $N$-th printed letter will be without waiting for it to be printed?

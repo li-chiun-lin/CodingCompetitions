@@ -73,3 +73,94 @@
   - [ ] Ropes (interactive)
   - [ ] Divisible Divisions
   - [ ] Infinitree
+
+## 2020
+
+- Qualification Round
+  - [ ] Vestigium
+  - [ ] Nesting Depth
+  - [ ] Parenting Partnering Returns
+  - [ ] ESAb ATAd (interactive)
+  - [ ] Indicium
+- Round 1A
+  - [ ] Pattern Matching
+  - [ ] Pascal Walk
+  - [ ] Square Dance
+- Round 1B
+  - [ ] Expogo
+  - [ ] Blindfolded Bullseye
+  - [ ] Join the Ranks
+- Round 1C
+  - [ ] Overexcited Fan
+  - [ ] Overrandomized
+  - [ ] Oversized Pancake Choppers
+- Round 2
+  - [ ] Incremental House of Pancakes
+  - [ ] Security Update
+  - [ ] Wormhole in One
+  - [ ] Emacs++
+- Round 3
+  - [ ] Naming Compromise
+  - [ ] Thermometers
+  - [ ] Pen Testing
+  - [ ] Recalculating
+- Final
+  - [ ] Pack the Slopes
+  - [ ] Adjacent and Consecutive
+  - [ ] Hexacoin Jam
+  - [ ] Musical Cords
+  - [ ] Replace All
+
+## 2019
+
+- Qualification Round
+  - [ ] Foregone Solution
+  - [ ] You Can Go Your Own Way
+  - [ ] Cryptopangrams
+  - [ ] Dat Bae (interactive)
+- Round 1A
+  - [ ] Pylons
+  - [ ] Golf Gophers
+  - [ ] Alien Rhyme
+- Round 1B
+  - [ ] Manhattan Crepe Cart
+  - [ ] Draupnir (interactive)
+  - [ ] Fair Fight
+- Round 1C
+  - [ ] Robot Programming Strategy
+  - [ ] Power Arrangers (interactive)
+  - [ ] Bacterial Tactics
+- Round 2
+  - [ ] New Elements: Part 1
+  - [ ] Pottery Lottery (interactive)
+  - [ ] New Elements: Part 2
+  - [ ] Contransmutation
+- Round 3
+  - [ ] Zillionim
+  - [ ] Pancake Pyramid
+  - [ ] Datacenter Duplex
+  - [ ] Napkin Folding
+- Final
+  - [ ] Board Meeting (interactive)
+  - [ ] Sorting Permutation Unit
+  - [ ] Won't sum? Must now
+  - [ ] Juggle Struggle: Part 1
+  - [ ] Juggle Struggle: Part 2
+  - [ ] Go To Considered Helpful
+
+## 2
+
+- Qualification Round
+  - [ ] 1
+- Round 1A
+  - [ ] 1
+- Round 1B
+  - [ ] 1
+- Round 1C
+  - [ ] 1
+- Round 2
+  - [ ] 1
+- Round 3
+  - [ ] 1
+- Final
+  - [ ] 1
