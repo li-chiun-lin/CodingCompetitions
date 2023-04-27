@@ -148,6 +148,47 @@
   - [ ] Juggle Struggle: Part 2
   - [ ] Go To Considered Helpful
 
+## 2018
+
+- Practice Session
+  - [ ] Number Guessing (interactive)
+  - [ ] Senate Evacuation
+  - [ ] Steed 2: Cruise Control
+  - [ ] Bathroom Stalls
+- Qualification Round
+  - [ ] Saving The Universe Again
+  - [ ] Trouble Sort
+  - [ ] Go, Gopher! (interactive)
+  - [ ] Cubic UFO
+- Round 1A
+  - [ ] Waffle Choppers
+  - [ ] Bit Party
+  - [ ] Edgy Baking
+- Round 1B
+  - [ ] Rounding Error
+  - [ ] Mysterious Road Signs
+  - [ ] Transmutation
+- Round 1C
+  - [ ] A Whole New Word
+  - [ ] Lollipop Shop
+  - [ ] Ant Stack
+- Round 2
+  - [ ] Falling Balls
+  - [ ] Graceful Chainsaw Jugglers
+  - [ ] Costume Change
+  - [ ] Gridception
+- Round 3
+  - [ ] Field Trip
+  - [ ] Name-Preserving Network
+  - [ ] Raise the Roof
+  - [ ] Fence Construction
+- Final
+  - [ ] Jurisdiction Restrictions
+  - [ ] Two-Tiling
+  - [ ] Go, Gophers! (interactive)
+  - [ ] Swordmaster
+  - [ ] The Cartesian Job
+
 ## 2
 
 - Qualification Round

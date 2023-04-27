@@ -9,11 +9,11 @@
   - [x] ASCII Art
   - [x] Untie
 - Round B
-  - [ ] Collecting Pancakes
-  - [ ] Intruder Outsmarting
-  - [ ] Spacious Sets
-  - [ ] Railroad Maintenance
-  - [ ] Railroad Management
+  - [x] Collecting Pancakes
+  - [x] Intruder Outsmarting
+  - [x] Spacious Sets
+  - [x] Railroad Maintenance
+  - [x] Railroad Management
 - Round C
   - [ ] Game Sort: Part 1
   - [ ] Immunization Operation
