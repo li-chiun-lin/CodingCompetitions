@@ -189,6 +189,43 @@
   - [ ] Swordmaster
   - [ ] The Cartesian Job
 
+## 2017
+
+- Qualification Round
+  - [ ] Oversized Pancake Flipper
+  - [ ] Tidy Numbers
+  - [ ] Bathroom Stalls
+  - [ ] Fashion Show
+- Round 1A
+  - [ ] Alphabet Cake
+  - [ ] Ratatouille
+  - [ ] Play the Dragon
+- Round 1B
+  - [ ] Steed 2: Cruise Control
+  - [ ] Stable Neigh-bors
+  - [ ] Pony Express
+- Round 1C
+  - [ ] Ample Syrup
+  - [ ] Parenting Partnering
+  - [ ] Core Training
+- Round 2
+  - [ ] Fresh Chocolate
+  - [ ] Roller Coaster Scheduling
+  - [ ] Beaming With Joy
+  - [ ] Shoot the Turrets
+- Round 3
+  - [ ] Googlements
+  - [ ] Good News and Bad News
+  - [ ] Mountain Tour
+  - [ ] Slate Modern
+- Final
+  - [ ] Dice Straight
+  - [ ] Operation
+  - [ ] Spanning Planning
+  - [ ] Omnicircumnavigation
+  - [ ] Stack Management
+  - [ ] Teleporters
+
 ## 2
 
 - Qualification Round

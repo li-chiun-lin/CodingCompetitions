@@ -15,8 +15,8 @@
   - [x] Railroad Maintenance
   - [x] Railroad Management
 - Round C
-  - [ ] Game Sort: Part 1
-  - [ ] Immunization Operation
+  - [x] Game Sort: Part 1
+  - [x] Immunization Operation
   - [ ] Evolutionary Algorithms
   - [ ] The Decades of Coding Competitions
   - [ ] Game Sort: Part 2
