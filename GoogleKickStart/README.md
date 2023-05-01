@@ -21,7 +21,7 @@
   - [ ] The Decades of Coding Competitions
   - [ ] Game Sort: Part 2
 - Round D
-  - [ ] Indispensable Overpass
+  - [x] Indispensable Overpass
   - [ ] Genetic Sequences
   - [ ] Hey Google, Drive!
   - [ ] Old Gold

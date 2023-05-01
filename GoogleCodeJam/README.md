@@ -226,6 +226,42 @@
   - [ ] Stack Management
   - [ ] Teleporters
 
+## 2016
+
+- Qualification Round
+  - [ ] Counting Sheep
+  - [ ] Revenge of the Pancakes
+  - [ ] Coin Jam
+  - [ ] Fractiles
+- Round 1A
+  - [ ] The Last Word
+  - [ ] Rank and File
+  - [ ] BFFs
+- Round 1B
+  - [ ] Getting the Digits
+  - [ ] Close Match
+  - [ ] Technobabble
+- Round 1C
+  - [ ] Senate Evacuation
+  - [ ] Slides!
+  - [ ] Fashion Police
+- Round 2
+  - [ ] Rather Perplexing Showdow
+  - [ ] Red Tape Committee
+  - [ ] The Gardener of Seville
+  - [ ] Freeform Factory
+- Round 3
+  - [ ] Teaching Assistant
+  - [ ] Forest University
+  - [ ] Rebel Against The Empire
+  - [ ] Go++
+- Final
+  - [ ] Family Hotel
+  - [ ] Integeregex
+  - [ ] Gallery of Pillars
+  - [ ] Map Reduce
+  - [ ] Radioactive Islands
+
 ## 2
 
 - Qualification Round

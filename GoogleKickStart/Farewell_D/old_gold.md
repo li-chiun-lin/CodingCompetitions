@@ -10,4 +10,10 @@ The notes are in the form of a diagram of the road. For each kilometer of road, 
 - o, indicating that there is a gold nugget at that position, or
 - ., indicating that nothing is known about that location.
 
-Since each of the k unknown (.) positions could contain or not contain a gold nugget independently, you want to find out how many of the 2k placements of gold are compatible with all your notes and result in the road overall containing at least one gold nugget. Since the output can be a really big number, we only ask you to output the remainder of dividing the result by the prime $10^9+7$ .
+Since each of the $k$ unknown (.) positions could contain or not contain a gold nugget independently, you want to find out how many of the $2^k$ placements of gold are compatible with all your notes and result in the road overall containing at least one gold nugget. Since the output can be a really big number, we only ask you to output the remainder of dividing the result by the prime $10^9+7$ .
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ lines follow.  
+Each line contains a string $S$ representing a single test case.  
+The $i$-th character of $S$ represents the marking in your notes for the $i$-th kilometer of road, from West to East, using the code explained above.
