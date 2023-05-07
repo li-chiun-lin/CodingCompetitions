@@ -1,0 +1,7 @@
+[submodule "LeetCode"]
+	path = LeetCode
+	url = https://github.com/li-chiun-lin/LeetCode.git
+	
+[submodule "GeeksforGeeks"]
+	path = GeeksforGeeks
+	url = https://github.com/li-chiun-lin/GeeksforGeeks.git
