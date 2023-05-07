@@ -6,8 +6,8 @@ git filter-branch -f --tree-filter 'rm  -rf MetaHackerCup/2022_F/emerald_exhibit
 
 ## submodule
 
-1. create now repository in github
-1. cmd
+1. create now repository in github, e.x. ${url.git}
+2. go to ${subdir}
 
     ```text
     git init
@@ -18,7 +18,7 @@ git filter-branch -f --tree-filter 'rm  -rf MetaHackerCup/2022_F/emerald_exhibit
     git push -u origin main
     ```
 
-1. git rm -r ${subdir}
-1. git submodule add ${url.git} ${subdir}
-1. git commit -a -m 1
-1. git push
+3. #git rm -r ${subdir}
+4. git submodule add ${url.git} ${subdir}
+5. git commit -a -m 1
+6. git push
