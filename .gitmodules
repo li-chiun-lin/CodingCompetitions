@@ -14,3 +14,6 @@
 [submodule "ProjectEuler"]
 	path = ProjectEuler
 	url = https://github.com/li-chiun-lin/ProjectEuler.git
+[submodule "MetaHackerCup"]
+	path = MetaHackerCup
+	url = https://github.com/li-chiun-lin/MetaHackerCup.git
