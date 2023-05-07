@@ -11,3 +11,6 @@
 [submodule "GoogleCodeJam"]
 	path = GoogleCodeJam
 	url = https://github.com/li-chiun-lin/GoogleCodeJam.git
+[submodule "ProjectEuler"]
+	path = ProjectEuler
+	url = https://github.com/li-chiun-lin/ProjectEuler.git
