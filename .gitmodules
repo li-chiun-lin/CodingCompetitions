@@ -8,3 +8,6 @@
 [submodule "GoogleKickStart"]
 	path = GoogleKickStart
 	url = https://github.com/li-chiun-lin/GoogleKickStart.git
+[submodule "GoogleCodeJam"]
+	path = GoogleCodeJam
+	url = https://github.com/li-chiun-lin/GoogleCodeJam.git
