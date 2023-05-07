@@ -1,6 +1,0 @@
-5
-abcd
-aaaabcd
-aaaabbccd
-abcdabcdaabccd
-b
