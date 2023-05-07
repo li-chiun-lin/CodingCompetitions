@@ -43,7 +43,7 @@
   - [x] Reversort
   - [x] Moons and Umbrellas
   - [x] Reversort Engineering
-  - [ ] Median Sort
+  - [ ] Median Sort (interactive)
   - [ ] Cheating Detection
 - Round 1A
   - [x] Append Sort
@@ -299,6 +299,43 @@
   - [ ] Taking Over The World
   - [ ] Merlin QA
   - [ ] Crane Truck
+
+## 2014
+
+- Qualification Round
+  - [x] Magic Trick
+  - [x] Cookie Clicker Alpha
+  - [x] Deceitful War
+  - [ ] Minesweeper Master
+- Round 1A
+  - [ ] Charging Chaos
+  - [ ] Full Binary Tree
+  - [ ] Proper Shuffle
+- Round 1B
+  - [ ] The Repeater
+  - [ ] New Lottery Game
+  - [ ] The Bored Traveling Salesman
+- Round 1C
+  - [ ] Part Elf
+  - [ ] Reordering Train Cars
+  - [ ] Enclosure
+- Round 2
+  - [ ] Data Packing
+  - [ ] Up and Down
+  - [ ] Don't Break The Nile
+  - [ ] Trie Sharding
+- Round 3
+  - [ ] Magical, Marvelous Tour
+  - [ ] Last Hit
+  - [ ] Crime House
+  - [ ] Willow
+- Final
+  - [ ] Checkerboard Matrix
+  - [ ] Power Swapper
+  - [ ] Symmetric Trees
+  - [ ] Paradox Sort
+  - [ ] Allergy Testing
+  - [ ] ARAM
 
 ## 2
 

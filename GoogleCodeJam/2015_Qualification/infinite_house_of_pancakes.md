@@ -1,6 +1,6 @@
 # Problem
 
-At the Infinite House of Pancakes, there are only finitely many pancakes, but there are infinitely many diners who would be willing to eat them! When the restaurant opens for breakfast, among the infinitely many diners, exactly D have non-empty plates; the ith of these has Pi pancakes on his or her plate. Everyone else has an empty plate.
+At the Infinite House of Pancakes, there are only finitely many pancakes, but there are infinitely many diners who would be willing to eat them! When the restaurant opens for breakfast, among the infinitely many diners, exactly $D$ have non-empty plates; the $i$-th of these has $P_i$ pancakes on his or her plate. Everyone else has an empty plate.
 
 Normally, every minute, every diner with a non-empty plate will eat one pancake from his or her plate. However, some minutes may be special. In a special minute, the head server asks for the diners' attention, chooses a diner with a non-empty plate, and carefully lifts some number of pancakes off of that diner's plate and moves those pancakes onto one other diner's (empty or non-empty) plate. No diners eat during a special minute, because it would be rude.
 
@@ -10,4 +10,5 @@ Breakfast ends when there are no more pancakes left to eat. How quickly can you 
 
 ## Input
 
-The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line with D, the number of diners with non-empty plates, followed by another line with D space-separated integers representing the numbers of pancakes on those diners' plates.
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.  
+Each consists of one line with $D$, the number of diners with non-empty plates, followed by another line with $D$ space-separated integers representing the numbers of pancakes on those diners' plates.
