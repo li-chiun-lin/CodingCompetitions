@@ -1,5 +1,0 @@
-Case #1: 4
-Case #2: 7
-Case #3: NOT POSSIBLE
-Case #4: NOT POSSIBLE
-Case #5: 6

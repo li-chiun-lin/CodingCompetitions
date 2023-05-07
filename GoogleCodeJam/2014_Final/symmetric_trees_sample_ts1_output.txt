@@ -1,3 +1,0 @@
-Case #1: SYMMETRIC
-Case #2: NOT SYMMETRIC
-Case #3: SYMMETRIC

@@ -1,2 +1,0 @@
-Case #1: BAD
-Case #2: GOOD
